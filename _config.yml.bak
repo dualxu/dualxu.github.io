@@ -1,9 +1,9 @@
 # Basic Site Information
 title: dualxu
 author: dualxu
-post_author: 吕毅
-description: 吕毅的博客 dualxu's blog
-mail: dualxu@outlook.com
+post_author: dualxu
+description: dualxu's blog
+mail: frankxu0217@outlook.com
 about: Windows 10 Developer
 
 # Site Appearance
@@ -39,9 +39,9 @@ github:
   username: dualxu
   link: https://github.com/dualxu
 facebook:
-  username: Xblero
+  username: dualxu
 twitter:
-  username: _lvyi_
+  username: dualxu
 stackoverflow:
   link: https://stackoverflow.com/users/6233938/dualxu
 
@@ -75,14 +75,14 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      author: "吕毅"
+      author: "dualxu"
       permalink: "/post/:title.html"
   - scope:
       path: "_articles"
       type: "articles"
     values:
       layout: "post"
-      author: "吕毅"
+      author: "dualxu"
       permalink: "/article/:title.html"
 
 # Plugins
