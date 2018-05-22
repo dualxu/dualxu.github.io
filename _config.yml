@@ -46,20 +46,20 @@ stackoverflow:
   link: https://stackoverflow.com/users/6233938/dualxu
 
 # Visit Analysis
-analytics:
-  google: UA-108101550-1
-  cnzz: cnzz_stat_icon_1264408226
-disqus:
-  name: dualxu_github
-  url: https://dualxu.github.io
-gitment:
-  owner: dualxu
-  client_id: 9a8b44a07f269679e9b5
-  client_secret: 3412cef75373074fd43b62462a7adef7ad1e2127
-  repo: dualxu.github.io
-leancloud:
-  appid: 2NpLNUTfjU4ey5wOeWPPiXXL-gzGzoHsz
-  appkey: OeA2qCtXi7ifv96UbMQ4J1kn
+#analytics:
+#  google: UA-108101550-1
+#  cnzz: cnzz_stat_icon_1264408226
+#disqus:
+#  name: dualxu_github
+#  url: https://dualxu.github.io
+#gitment:
+#  owner: dualxu
+#  client_id: 9a8b44a07f269679e9b5
+#  client_secret: 3412cef75373074fd43b62462a7adef7ad1e2127
+#  repo: dualxu.github.io
+#leancloud:
+#  appid: 2NpLNUTfjU4ey5wOeWPPiXXL-gzGzoHsz
+#  appkey: OeA2qCtXi7ifv96UbMQ4J1kn
 
 # Post Settings
 excerpt_separator: ---
