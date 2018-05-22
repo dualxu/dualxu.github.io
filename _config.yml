@@ -18,14 +18,14 @@ url: "https://dualxu.github.io"
 links:
   - title: 博客
     url: /
-  - title: 胡思乱想
+  - title: 迷思
     url: /mind
   - title: 朋友
     url: /friends
   - title: 开源项目
     url: /projects
   - title: 关于
-    url: /about/
+    url: /about
 links-light:
   - icon: users
     title: 朋友
