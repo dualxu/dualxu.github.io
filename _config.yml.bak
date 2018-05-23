@@ -38,15 +38,15 @@ author:
   facebook: xuwithxu # your Facebook username
   twitter: dualxu # your Twitter username
   github: dualxu # your GitHub username
-  linkedin: # your Linkedin username
-  googleplus: # your Google+ username
-  weibo: # your Weibo username
-  douban: # your Douban username
+  linkedin: dualxu # your Linkedin username
+  googleplus: dualxu # your Google+ username
+  weibo: dualxu # your Weibo username
+  douban: dualxu # your Douban username
 
 
 ## => GitHub Repository (if the site is hosted by GitHub)
 ##############################
-repository: someone/someone.github.io
+repository: dualxu/dualxu.github.io
 repository_tree: master
 
 
@@ -105,7 +105,7 @@ sources: # bootcdn (default), unpkg
 ##############################
 ## Disqus
 disqus:
-  shortname: # the Disqus shortname for the site
+  shortname: dualxu # the Disqus shortname for the site
 
 ## Gitalk
 # please refer to https://github.com/gitalk/gitalk for more info.

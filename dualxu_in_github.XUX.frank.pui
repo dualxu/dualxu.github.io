@@ -1,18 +1,36 @@
 [Open Files]
 Active File Display Mode=3
-Active File Index=1
+Active File Index=5
 Open File Line0=1060
-Open File Line1=1178
+Open File Line1=2238
 Open File Line2=1174
+Open File Line3=3450
+Open File Line4=2
+Open File Line5=2
 Open File Pos0=2016
-Open File Pos1=2270
+Open File Pos1=3274
 Open File Pos2=2
+Open File Pos3=248
+Open File Pos4=162
+Open File Pos5=334
 Open File Window Pos0=0,1,-1,-1,-8,-31,0,0,993,243
-Open File Window Pos1=2,3,-1,-1,-8,-31,26,26,1023,275
+Open File Window Pos1=0,1,-1,-1,-8,-31,26,26,1023,275
 Open File Window Pos2=0,1,-1,-1,-8,-31,52,52,1049,301
+Open File Window Pos3=0,1,-1,-1,-8,-31,78,78,1075,327
+Open File Window Pos4=0,1,-1,-1,-8,-31,104,104,1101,353
+Open File Window Pos5=2,3,-1,-1,-8,-31,0,0,997,249
 Open File0=D:\WorkSpace\Work2018\DevSpec\github.io\dualxu.github.io\_config.demo.yml
 Open File1=D:\WorkSpace\Work2018\DevSpec\github.io\dualxu.github.io\_config.yml
 Open File2=D:\WorkSpace\Work2018\DevSpec\github.io\dualxu.github.io\_config.dev.yml
-Open File3=
+Open File3=D:\WorkSpace\Work2018\DevSpec\github.io\dualxu.github.io\_data\locale.yml
+Open File4=D:\WorkSpace\Work2018\DevSpec\github.io\dualxu.github.io\_posts\2017-10-14-hello-world.md
+Open File5=D:\WorkSpace\Work2018\DevSpec\github.io\dualxu.github.io.backup\_posts\2013\2013-05-15-hello-world.md
+Open File6=
 Remember Files=1
 
+[Project Information]
+Project Start=E20705000300170015001800250000005A
+Working Time=1693
+[Folders]
+.\=1
+.\ - _data=1
