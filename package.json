@@ -1,42 +1,41 @@
 {
-  "name": "thiagorossener.github.io",
-  "version": "1.0.0",
-  "description": "Blog pessoal de Thiago Rossener.",
-  "main": "gulpfile.js",
+  "name": "jekyll-text-theme",
+  "version": "1.5.0",
+  "description": "A text first theme for Jekyll.",
   "scripts": {
-    "test": "test"
+    "build": "bundle exec jekyll build",
+    "serve": "bundle exec jekyll serve -H 0.0.0.0",
+    "default": "bundle exec jekyll serve -H 0.0.0.0 -t",
+    "dev": "bundle exec jekyll serve -H 0.0.0.0 -t --config ./_config.dev.yml",
+    "demo-dev": "bundle exec jekyll serve -H 0.0.0.0 -t --config ./_config.demo.yml",
+    "demo-beta": "JEKYLL_ENV=beta bundle exec jekyll serve -H 0.0.0.0 -t --config ./_config.demo.yml",
+    "demo-production": "JEKYLL_ENV=production bundle exec jekyll serve -H 0.0.0.0 -t --config ./_config.demo.yml",
+    "favicon": "gulp favicon",
+    "icons": "gulp icons",
+    "artwork": "gulp artwork",
+    "gem-build": "rm -fv jekyll-text-theme-*.gem && gem build jekyll-text-theme.gemspec",
+    "gem-push": "gem push jekyll-text-theme-*.gem"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thiagorossener/thiagorossener.github.io.git"
+    "url": "git+https://github.com/kitian616/kitian616.github.io.git"
   },
   "keywords": [
     "jekyll",
-    "blog",
-    "css",
-    "js",
-    "gulp",
-    "stylus"
+    "jekyll-theme",
+    "jekyll-template"
   ],
-  "author": "Thiago Rossener",
-  "license": "ISC",
+  "author": "Tian Qi",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/thiagorossener/thiagorossener.github.io/issues"
+    "url": "https://github.com/kitian616/issues"
   },
-  "homepage": "https://github.com/thiagorossener/thiagorossener.github.io#readme",
+  "homepage": "https://github.com/kitian616#readme",
   "devDependencies": {
-    "autoprefixer-stylus": "^0.14.0",
-    "browser-sync": "^2.18.13",
-    "child_process": "^1.0.2",
+    "eslint": "^4.19.1",
     "gulp": "^3.9.1",
-    "gulp-concat": "^2.6.1",
-    "gulp-imagemin": "^3.3.0",
-    "gulp-plumber": "^1.1.0",
-    "gulp-stylus": "^2.6.0",
-    "gulp-uglify": "^3.0.0",
-    "jeet": "^7.1.0",
-    "kouto-swiss": "^1.1.0",
-    "minimist": "^1.2.0",
-    "rupture": "^0.6.2"
+    "gulp-rename": "^1.2.2",
+    "gulp-svg2png": "^2.0.2",
+    "gulp-to-ico": "^1.0.0"
   }
 }

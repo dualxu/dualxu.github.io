@@ -1,18 +1,13 @@
-<!DOCTYPE html>
-<html lang="en" itemscope itemtype="http://schema.org/BlogPosting">
-  {% include head.html %}
-  <body class="has-push-menu {{ site.default-theme }}-theme">
-    {% include script.html %}
-    {% include svg-icons.html %}
-    {% include header.html %}
-    <section class="post">
-      <article role="article" id="post" class="post-content" itemprop="articleBody">
-        <h1 class="post-title" itemprop="name">{{ page.title }}</h1>
-        <p itemprop="description" class="subtitle">{{ page.description }}</p>
-        {{ content }}
-      </article>
-      <!--{% include comments.html %}-->
-      {% include footer.html %}
-    </section>
-  </body>
-</html>
+---
+layout: base
+---
+<div class="m-page">
+  <article class="main">
+    {%- include snippets/page-title.html -%}
+    <div class="main-header"><h1>{{ __return }}</h1></div>
+    <div class="m-article-content" itemprop="articleBody">{{ content }}</div>
+    {%- if jekyll.environment != "development" and page.comment != false -%}
+      <section>{%- include comment.html -%}</section>
+    {%- endif -%}
+  </article>
+</div>

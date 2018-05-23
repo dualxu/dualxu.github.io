@@ -1,9 +1,0 @@
----
-layout: project
-title: 开源项目
-permalink: /projects/
----
-
-- [Microsoft DevOps Blog](https://blogs.msdn.microsoft.com/devops/)
-
----
