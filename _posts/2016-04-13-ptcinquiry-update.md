@@ -6,102 +6,100 @@ categories: windows
 permalink: /windows/2016/04/13/ptcinquriy-update.html
 ---
 
-*PTCInquiry(¹«½»¿¨Óà¶î¼°½»Ò×Ã÷Ï¸²éÑ¯¹¤¾ß)*  
-¹«¹²½»Í¨¿¨Óà¶îºÍ½»Ò×¼ÇÂ¼²éÑ¯¹¤¾ßÒÑ¸üÐÂ£¬½â¾öBB10 10.3.2ÏÂ²éÑ¯ºóÉÁÍËµÄÎÊÌâ¡£      
-Check out  in BlackBerry World! [PTCInquiry ¹«½»¿¨Óà¶î²éÑ¯¹¤¾ß](https://appworld.blackberry.com/webstore/content/22953873/?countrycode=CN&lang=en) 
+**PTCInquiry(å…¬äº¤å¡ä½™é¢åŠäº¤æ˜“æ˜Žç»†æŸ¥è¯¢å·¥å…·)**
+ 
+PTCInquiry(å…¬å…±äº¤é€šå¡ä½™é¢å’Œäº¤æ˜“è®°å½•æŸ¥è¯¢å·¥å…·)å·²æ›´æ–°ï¼Œè§£å†³BB10 10.3.2ä¸‹æŸ¥è¯¢åŽé—ªé€€çš„é—®é¢˜ã€‚ Check out  in BlackBerry World! [PTCInquiry å…¬äº¤å¡ä½™é¢æŸ¥è¯¢å·¥å…·](https://appworld.blackberry.com/webstore/content/22953873/?countrycode=CN&lang=en) 
 
-*PTCInquiry(¹«½»¿¨Óà¶î¼°½»Ò×Ã÷Ï¸²éÑ¯¹¤¾ß)*
+**PTCInquiry(å…¬äº¤å¡ä½™é¢åŠäº¤æ˜“æ˜Žç»†æŸ¥è¯¢å·¥å…·)**
 
-PTCInquiry(Public Transportation Card Inquiry Tool,¹«½»¿¨Óà¶î¼°½»Ò×Ã÷Ï¸²éÑ¯¹¤¾ß)ÊÇÒ»¸öÄ¿Ç°ÔÚºÚÝ®BB10ÏµÍ³ÉÏÊµÏÖµÄÒ»¿îÓ¦ÓÃ£¬¿ÉÒÔ²éÑ¯¶à¸ö³ÇÊÐ¹«½»¿¨Óà¶î¼°½»Ò×Ã÷Ï¸£¬´ËÍâ»¹ÓÐETC¼°ÒøÁªµç×ÓÏÖ½ðÇ®°üÓà¶î¼°½»Ò×¼ÇÂ¼µÄ²éÑ¯¡£¹«¹²½»Í¨¿¨²éÑ¯Ä¿Ç°ÒÑÖ§³Ö¶à´ï50¶à¸ö³ÇÊÐ£¬ÆäËû³ÇÊÐ¹«½»¿¨ÕýÔÚ³ÖÐøÔö¼ÓÖÐ¡­¡­
+PTCInquiry(Public Transportation Card Inquiry Tool,å…¬äº¤å¡ä½™é¢åŠäº¤æ˜“æ˜Žç»†æŸ¥è¯¢å·¥å…·)æ˜¯ä¸€ä¸ªç›®å‰åœ¨é»‘èŽ“BB10ç³»ç»Ÿä¸Šå®žçŽ°çš„ä¸€æ¬¾åº”ç”¨ï¼Œå¯ä»¥æŸ¥è¯¢å¤šä¸ªåŸŽå¸‚å…¬äº¤å¡ä½™é¢åŠäº¤æ˜“æ˜Žç»†ï¼Œæ­¤å¤–è¿˜æœ‰ETCåŠé“¶è”ç”µå­çŽ°é‡‘é’±åŒ…ä½™é¢åŠäº¤æ˜“è®°å½•çš„æŸ¥è¯¢ã€‚å…¬å…±äº¤é€šå¡æŸ¥è¯¢ç›®å‰å·²æ”¯æŒå¤šè¾¾50å¤šä¸ªåŸŽå¸‚ï¼Œå…¶ä»–åŸŽå¸‚å…¬äº¤å¡æ­£åœ¨æŒç»­å¢žåŠ ä¸­â€¦â€¦
 
-ÓÉÓÚBlackberry WorldÉÏÆÀÂÛÃ»ÓÐ»Ø¸´µÈ¹¦ÄÜ£¬Òò´Ë¶ÔÓÚ´Ë¹¤¾ßÓÐÈÎºÎÎÊÌâ»ò½¨ÒéÇë»Ø¸´ÁôÑÔÆÀÂÛ£¬ÎÒ½«¶¨ÆÚ»Ø¸´£¬Ð»Ð»£¡
+ç”±äºŽBlackberry Worldä¸Šè¯„è®ºæ²¡æœ‰å›žå¤ç­‰åŠŸèƒ½ï¼Œå› æ­¤å¯¹äºŽæ­¤å·¥å…·æœ‰ä»»ä½•é—®é¢˜æˆ–å»ºè®®è¯·å›žå¤ç•™è¨€è¯„è®ºï¼Œæˆ‘å°†å®šæœŸå›žå¤ï¼Œè°¢è°¢ï¼
 
-ÄúµÄ²»¶Ï¹ÄÀøºÍ»ý¼«·´À¡£¬½«»áÊÇÎÒ³ÖÐø¶¯Á¦µÄÔ´Èª£¡ÄúµÄÔÞÉÍ½«Ê¹ÎÒ¸Ðµ½ÎÂÅ¯ºÍÌÕ×í,´Ó¶ø±£³Ö´ËÓ¦ÓÃµÄ»îÁ¦ºÍ¸üÐÂ¡£Èç¹ûÄúÔÞÉÍÎÒµÄ¸¶³ö,Çë¾èÖúÖÁfrankxu0217#gmail.com(Ö§¸¶±¦»òPayPal),½ð¶î²»ÏÞ,Ð»Ð»£¡
+å¯ä»¥é€šè¿‡æ–°æµªå¾®åš[@å¤§å®å¾](http://www.weibo.com/dabaoxu) è¿˜æœ‰PIN: 24DA3902 å’Œæˆ‘è”ç³»ã€‚å¦‚æžœæ‚¨æœ‰å¡ç‰‡ï¼ˆè‡³å°‘ä¸æ˜¯ç©ºç™½æˆ–æ— æ³•è¯†åˆ«çš„ï¼‰å¯ä»¥è”ç³»æˆ‘è®©æˆ‘æ¥è¯•è¯•ï¼Œä¸‡ä¸€å¯ä»¥å‘¢ï¼Ÿï¼
 
-¿ÉÒÔÍ¨¹ýÐÂÀËÎ¢²©[@´ó±¦Ðì](http://www.weibo.com/dabaoxu) »¹ÓÐPIN: 24DA3902 ºÍÎÒÁªÏµ¡£Èç¹ûÄúÓÐ¿¨Æ¬£¨ÖÁÉÙ²»ÊÇ¿Õ°×»òÎÞ·¨Ê¶±ðµÄ£©¿ÉÒÔÁªÏµÎÒÈÃÎÒÀ´ÊÔÊÔ£¬ÍòÒ»¿ÉÒÔÄØ£¿£¡
+å¯ä»¥åœ¨Blackberry Worldä¸Šæœç´¢â€œPTCInquiryâ€ï¼Œæˆ–è€… ç›´æŽ¥[ç‚¹æ­¤](http://appworld.blackberry.com/webstore/content/22953873/?countrycode=CN&lang=zh_cn)ä¸‹è½½
 
-¿ÉÒÔÔÚBlackberry WorldÉÏËÑË÷¡°PTCInquiry¡±£¬»òÕß Ö±½Ó[µã´Ë](http://appworld.blackberry.com/webstore/content/22953873/?countrycode=CN&lang=zh_cn)ÏÂÔØ
+æ”¯æŒäº’é€šä»¥åŽï¼Œè¿™é‡ŒæåŠçš„åŸŽå¸‚å…¬äº¤å¡éƒ½å¯ä»¥æŸ¥è¯¢ï¼Œè¯·ä½¿ç”¨â€œä¸Šæµ·åŠäº’è”äº’é€šå¡â€è¯•è¯•ï¼ŒæœŸå¾…ä½ çš„åé¦ˆï¼Œè°¢è°¢!
 
-Ö§³Ö»¥Í¨ÒÔºó£¬ÕâÀïÌá¼°µÄ³ÇÊÐ¹«½»¿¨¶¼¿ÉÒÔ²éÑ¯£¬ÇëÊ¹ÓÃ¡°ÉÏº£¼°»¥Áª»¥Í¨¿¨¡±ÊÔÊÔ£¬ÆÚ´ýÄãµÄ·´À¡£¬Ð»Ð»¡£
+æ”¯æŒåŸŽå¸‚åˆ—è¡¨:
 
-Ö§³Ö³ÇÊÐÁÐ±í:
+ä¸Šæµ·(å¡é¢å·ä»¥Uå¼€å¤´ï¼Œå…¶ä»–ä¸æ”¯æŒ)
 
-ÉÏº£(¿¨ÃæºÅÒÔU¿ªÍ·£¬ÆäËû²»Ö§³Ö)
+åŒ—äº¬(å¸‚æ”¿äº¤é€šä¸€å¡é€š)
 
-±±¾©(ÊÐÕþ½»Í¨Ò»¿¨Í¨)
+å¹¿å·ž(ç¾ŠåŸŽé€š)
 
-¹ãÖÝ(Ñò³ÇÍ¨)
+è‹å·ž(è‹å·žé€šï¼Œå¸‚æ°‘å¡Bå¡)ï¼Œå˜‰å…´ï¼Œæ­¦æ±‰ï¼Œæ—¥ç…§ï¼Œè¥¿å®‰ï¼Œé‡åº†(é€‰æ‹©â€œè¥¿å®‰â€æˆ–â€œæˆéƒ½â€)
 
-ËÕÖÝ(ËÕÖÝÍ¨£¬ÊÐÃñ¿¨B¿¨)£¬¼ÎÐË£¬Îäºº£¬ÈÕÕÕ£¬Î÷°²£¬ÖØÇì(Ñ¡Ôñ¡°Î÷°²¡±»ò¡°³É¶¼¡±)
+æ±Ÿé˜´ï¼Œé˜³æ±Ÿï¼Œæ·®å®‰(æ·®å®‰é€š)ï¼Œå®œå…´(é™¶éƒ½é€š)ï¼Œæˆéƒ½(å¤©åºœé€š)
 
-½­Òõ£¬Ñô½­£¬»´°²(»´°²Í¨)£¬ÒËÐË(ÌÕ¶¼Í¨)£¬³É¶¼(Ìì¸®Í¨)
+å¸¸ç†Ÿ(å¸¸ç†Ÿé€š)ï¼Œæ˜†æ˜Žï¼Œæ˜†å±±ï¼Œé’å²›(ç´å²›é€š)ï¼ŒæŸ³å·ž(é¾™è¡Œå¡)
 
-³£Êì(³£ÊìÍ¨)£¬À¥Ã÷£¬À¥É½£¬Çàµº(ÇÙµºÍ¨)£¬ÁøÖÝ(ÁúÐÐ¿¨)
+ä»¥åŠå®æ³¢ã€ç»å…´ã€æ¹–å·žã€å°å·žã€å¸¸ç†Ÿã€å…°å·žã€ç™½é“¶ã€å—æ˜Œã€ æ°¸å·žã€ è‘«èŠ¦å²›ã€ é”¦å·žã€ æ±Ÿæ²¹ã€ æŠšé¡ºã€ è¥å£ã€æ˜†å±± ã€æ±Ÿé˜´ã€ æ·®å®‰ã€å¤©æ´¥ ã€æ²ˆé˜³ã€ ç¦å·žã€ ä¸‰äºšã€ æ¹›æ±Ÿã€ æ— é”¡ã€ å—é€šã€ è¾½æº ã€æ¾åŽŸã€ å…‹æ‹‰çŽ›ä¾ã€ æ¦†æž—ã€ é¾™å²©ã€ èˆŸå±±ã€ æ³°å·ž ã€é•¿å…´ã€ é©»é©¬åº—ã€ é¹°æ½­ã€ å‡¯é‡Œã€ å¤§åº†ã€å…´åŸŽã€å¤ªä»“ã€é‡‘åŽã€èŽ†ç”°ã€æ³‰å·žã€æ™‹æ±Ÿã€æ½œæ±Ÿã€åå °ã€éƒ‘å·žã€éµä¹‰ã€æ˜†æ˜Žã€æ¸­å—ã€åŽäº­åŽ¿ç­‰ã€‚
 
-ÒÔ¼°Äþ²¨¡¢ÉÜÐË¡¢ºþÖÝ¡¢Ì¨ÖÝ¡¢³£Êì¡¢À¼ÖÝ¡¢°×Òø¡¢ÄÏ²ý¡¢ ÓÀÖÝ¡¢ ºùÂ«µº¡¢ ½õÖÝ¡¢ ½­ÓÍ¡¢ ¸§Ë³¡¢ Óª¿Ú¡¢À¥É½ ¡¢½­Òõ¡¢ »´°²¡¢Ìì½ò ¡¢ÉòÑô¡¢ ¸£ÖÝ¡¢ ÈýÑÇ¡¢ Õ¿½­¡¢ ÎÞÎý¡¢ ÄÏÍ¨¡¢ ÁÉÔ´ ¡¢ËÉÔ­¡¢ ¿ËÀ­ÂêÒÀ¡¢ ÓÜÁÖ¡¢ ÁúÑÒ¡¢ ÖÛÉ½¡¢ Ì©ÖÝ ¡¢³¤ÐË¡¢ ×¤Âíµê¡¢ Ó¥Ì¶¡¢ ¿­Àï¡¢ ´óÇì¡¢ÐË³Ç¡¢Ì«²Ö¡¢½ð»ª¡¢ÆÎÌï¡¢ÈªÖÝ¡¢½ú½­¡¢Ç±½­¡¢Ê®Ñß¡¢Ö£ÖÝ¡¢×ñÒå¡¢À¥Ã÷¡¢Î¼ÄÏ¡¢»ªÍ¤ÏØµÈ
+ç›¸å…³é“¾æŽ¥ï¼š
 
-Ïà¹ØÁ´½Ó£º
+[å…¬äº¤å¡è¯»å¡å™¨ã€CardReaderã€‘-å¯ä»¥èŽ·å–å…¬äº¤å¡ä½™é¢å’Œè¿‘æœŸäº¤æ˜“è®°å½•ï¼Œå·²æ”¯æŒå¤šä¸ªåŸŽå¸‚](http://cnbbdevgroup.com/forum.php?mod=viewthread&tid=2288)
 
-[¹«½»¿¨¶Á¿¨Æ÷¡¾CardReader¡¿-¿ÉÒÔ»ñÈ¡¹«½»¿¨Óà¶îºÍ½üÆÚ½»Ò×¼ÇÂ¼£¬ÒÑÖ§³Ö¶à¸ö³ÇÊÐ](http://cnbbdevgroup.com/forum.php?mod=viewthread&tid=2288)
-
-[¹«½»¿¨Óà¶î²éÑ¯¹¤¾ß¡ªSearch PTCInquiry¸üÐÂ½â¾öÉÁÍËÎÊÌâÁË](http://www.51blackberry.com/2016/01/06/search-ptcinquiry/)
+[å…¬äº¤å¡ä½™é¢æŸ¥è¯¢å·¥å…·â€”Search PTCInquiryæ›´æ–°è§£å†³é—ªé€€é—®é¢˜äº†](http://www.51blackberry.com/2016/01/06/search-ptcinquiry/)
 
 
 
-¸üÐÂ¼ÇÂ¼£º
+æ›´æ–°è®°å½•ï¼š
 
-2013/07/25 Ôö¼ÓÖ§³ÖÁøÖÝ(ÁúÐÐ¿¨)£¬°æ±¾£º1.0.2.324
+*2013/07/25 å¢žåŠ æ”¯æŒæŸ³å·ž(é¾™è¡Œå¡)ï¼Œç‰ˆæœ¬ï¼š1.0.2.324*
 
-2013/09/13 Ê¹ÓÃ10.2 API(Ã²ËÆ10.1¼°ÒÔÏÂÉè±¸ÉÏ¿´²»µ½)£¬°æ±¾£º1.0.2.332
+*2013/09/13 ä½¿ç”¨10.2 API(è²Œä¼¼10.1åŠä»¥ä¸‹è®¾å¤‡ä¸Šçœ‹ä¸åˆ°)ï¼Œç‰ˆæœ¬ï¼š1.0.2.332*
 
-2013/10/10 Ôö¼ÓÖ§³Ö¹þ¶û±õ(³ÇÊÐÍ¨)£¬°æ±¾£º1.0.2.341
+*2013/10/10 å¢žåŠ æ”¯æŒå“ˆå°”æ»¨(åŸŽå¸‚é€š)ï¼Œç‰ˆæœ¬ï¼š1.0.2.341*
 
-2013/12/06 ½«¶Ô»¥Áª»¥Í¨¿¨Ö§³ÖºÏ²¢ÔÚÉÏº£ÏîÖÐ£¬°æ±¾£º1.0.2.371
+*2013/12/06 å°†å¯¹äº’è”äº’é€šå¡æ”¯æŒåˆå¹¶åœ¨ä¸Šæµ·é¡¹ä¸­ï¼Œç‰ˆæœ¬ï¼š1.0.2.371*
 
-2013/12/24 ×òÌìÊÕµ½Öéº£Ä³ÈË¸øÎÒµÄÖéº£¹«½»Í¨´ï¿¨(³½Áú)¾ÓÈ»ÊÇM1¿¨£¬ÓÃ²»ÁËÓôÃÆµ«ÈÔÈ»·Ç³£¸ÐÐ»Ëý£¡
+*2013/12/24 æ˜¨å¤©æ”¶åˆ°ç æµ·æŸäººç»™æˆ‘çš„ç æµ·å…¬äº¤é€šè¾¾å¡(è¾°é¾™)å±…ç„¶æ˜¯M1å¡ï¼Œç”¨ä¸äº†éƒé—·ä½†ä»ç„¶éžå¸¸æ„Ÿè°¢å¥¹ï¼*
 
-2014/01/11 Ôö¼Ó¶ÔETC¿¨Æ¬Óà¶îºÍ½»Ò×¼ÇÂ¼²éÑ¯¹¦ÄÜ(ÆÚ´ý¸ü¶à²âÊÔ£¬Ä¿Ç°ETC¿¨ÖÐÓÐ×î¶à50Ìõ½»Ò×¼ÇÂ¼Ö»¶ÁÈ¡ÁË×î½üµÄ20Ìõ)£¬°æ±¾£º1.0.2.383
+*2014/01/11 å¢žåŠ å¯¹ETCå¡ç‰‡ä½™é¢å’Œäº¤æ˜“è®°å½•æŸ¥è¯¢åŠŸèƒ½(æœŸå¾…æ›´å¤šæµ‹è¯•ï¼Œç›®å‰ETCå¡ä¸­æœ‰æœ€å¤š50æ¡äº¤æ˜“è®°å½•åªè¯»å–äº†æœ€è¿‘çš„20æ¡)ï¼Œç‰ˆæœ¬ï¼š1.0.2.383*
 
-2014/06/13 Ôö¼Ó¶ÔÄÏ¾©½ðÁêÍ¨¿¨¿¨Æ¬ÐÅÏ¢ºÍ×î¶à9Ìõ½»Ò×¼ÇÂ¼²éÑ¯¹¦ÄÜ£¬°æ±¾£º1.0.2.434 (ºÜÒÅº¶£¬ÓÉÓÚ¶ÁÈ¡Óà¶îÐèÒªÈÏÖ¤Ã»·¨¶ÁÁË±§Ç¸)
+*2014/06/13 å¢žåŠ å¯¹å—äº¬é‡‘é™µé€šå¡å¡ç‰‡ä¿¡æ¯å’Œæœ€å¤š9æ¡äº¤æ˜“è®°å½•æŸ¥è¯¢åŠŸèƒ½ï¼Œç‰ˆæœ¬ï¼š1.0.2.434 (å¾ˆé—æ†¾ï¼Œç”±äºŽè¯»å–ä½™é¢éœ€è¦è®¤è¯æ²¡æ³•è¯»äº†æŠ±æ­‰)*
 
-2014/06/23 1.×Ô¶¯ÇÐ»»ÆÁÄ»ÏÔÊ¾·½Ïò¸ü¸ÄÎª½öÊúÆÁ 2.¹ØÓÚÒ³ÃæÔö¼Ó±ÉÈËPIN:24DA3902£¬°æ±¾£º1.0.3.446
+*2014/06/23 1.è‡ªåŠ¨åˆ‡æ¢å±å¹•æ˜¾ç¤ºæ–¹å‘æ›´æ”¹ä¸ºä»…ç«–å± 2.å…³äºŽé¡µé¢å¢žåŠ é„™äººPIN:24DA3902ï¼Œç‰ˆæœ¬ï¼š1.0.3.446*
 
-2014/07/26 Ôö¼Ó¶ÔÑïÖÝ¹«½»¿¨¿¨Æ¬ÐÅÏ¢ºÍ×î¶à9Ìõ½»Ò×¼ÇÂ¼²éÑ¯¹¦ÄÜ£¬°æ±¾£º1.0.3.449?0?2(ÓÉÓÚÈ¨ÏÞµÄ¹ØÏµ£¬ºÍÄÏ¾©½ðÁêÍ¨¿¨Ò»ÑùÎÞ·¨¶ÁÈ¡Óà¶î)
+*2014/07/26 å¢žåŠ å¯¹æ‰¬å·žå…¬äº¤å¡å¡ç‰‡ä¿¡æ¯å’Œæœ€å¤š9æ¡äº¤æ˜“è®°å½•æŸ¥è¯¢åŠŸèƒ½ï¼Œç‰ˆæœ¬ï¼š1.0.3.449?0?2(ç”±äºŽæƒé™çš„å…³ç³»ï¼Œå’Œå—äº¬é‡‘é™µé€šå¡ä¸€æ ·æ— æ³•è¯»å–ä½™é¢)*
 
-2014/09/16 ¸üÐÂ½­ÒõÊÐÃñ¿¨Ö§³Ö£¬Ôö¼Ó¶ÔÕÅ¼Ò¸ÛÊÐÃñ¿¨Ö§³Ö£¬°æ±¾£º1.0.3.474
+*2014/09/16 æ›´æ–°æ±Ÿé˜´å¸‚æ°‘å¡æ”¯æŒï¼Œå¢žåŠ å¯¹å¼ å®¶æ¸¯å¸‚æ°‘å¡æ”¯æŒï¼Œç‰ˆæœ¬ï¼š1.0.3.474*
 
-2015/01/16 Ôö¼Ó¶ÔÒøÁªµç×ÓÏÖ½ðÇ®°üQuickPassÓà¶î¼°½»Ò×¼ÇÂ¼²éÑ¯µÄÖ§³Ö£¬°æ±¾£º1.0.3.544
+*2015/01/16 å¢žåŠ å¯¹é“¶è”ç”µå­çŽ°é‡‘é’±åŒ…QuickPassä½™é¢åŠäº¤æ˜“è®°å½•æŸ¥è¯¢çš„æ”¯æŒï¼Œç‰ˆæœ¬ï¼š1.0.3.544*
 
-2015/01/20 Ó¦ÍøÓÑÒªÇó½«Ó¦ÓÃÃû³Æ¸ü¸ÄÎªPTCInquiry(Ä¬ÈÏ¼°Ó¢ÎÄÏµÍ³)/¹«¹²½»Í¨¿¨Óà¶î²éÑ¯(ÖÐÎÄÏµÍ³)£¬°æ±¾£º1.0.4.566
+*2015/01/20 åº”ç½‘å‹è¦æ±‚å°†åº”ç”¨åç§°æ›´æ”¹ä¸ºPTCInquiry(é»˜è®¤åŠè‹±æ–‡ç³»ç»Ÿ)/å…¬å…±äº¤é€šå¡ä½™é¢æŸ¥è¯¢(ä¸­æ–‡ç³»ç»Ÿ)ï¼Œç‰ˆæœ¬ï¼š1.0.4.566*
 
-2015/01/20 ¸üÐÂ¶ÔÁëÄÏÍ¨|Ñò³ÇÍ¨¿¨µÄÖ§³Ö£¬¸ÐÐ»À´×Ô@mail2besµÄLeoÔøÏÈºóÁ½´Î¸øÎÒ¼ÄÀ´ÁËÓÃÓÚ²âÊÔµÄ¿¨Æ¬¡£´ËÇ°µÄ³ÌÐòÒòÎªÄ³ÖÖÔ­ÒòÒ»Ö±ÓÐÎÊÌâµÄ£¬±§Ç¸ÁË¸÷Î»£¡Í¬Ê±Ò²¸üÐÂÁË×¡½¨²¿»¥Áª»¥Í¨³ÇÊÐÁÐ±í¡£°æ±¾£º1.0.4.591
+*2015/01/20 æ›´æ–°å¯¹å²­å—é€š|ç¾ŠåŸŽé€šå¡çš„æ”¯æŒï¼Œæ„Ÿè°¢æ¥è‡ª@mail2besçš„Leoæ›¾å…ˆåŽä¸¤æ¬¡ç»™æˆ‘å¯„æ¥äº†ç”¨äºŽæµ‹è¯•çš„å¡ç‰‡ã€‚æ­¤å‰çš„ç¨‹åºå› ä¸ºæŸç§åŽŸå› ä¸€ç›´æœ‰é—®é¢˜çš„ï¼ŒæŠ±æ­‰äº†å„ä½ï¼åŒæ—¶ä¹Ÿæ›´æ–°äº†ä½å»ºéƒ¨äº’è”äº’é€šåŸŽå¸‚åˆ—è¡¨ã€‚ç‰ˆæœ¬ï¼š1.0.4.591*
 
-2015/06/05 ¸üÐÂÊÊÓÃÐÂµÄ10.3.1ÏµÍ³£¬ÎÞÊµ¼Ê¸üÐÂ¡£°æ±¾£º1.0.4.616
+*2015/06/05 æ›´æ–°é€‚ç”¨æ–°çš„10.3.1ç³»ç»Ÿï¼Œæ— å®žé™…æ›´æ–°ã€‚ç‰ˆæœ¬ï¼š1.0.4.616*
 
-2016/01/01 ÐÞ¸´Ó¦ÓÃÔÚÏµÍ³¸üÐÂµ½10.3.2Ö®ºó²éÑ¯³É¹¦ºóÉÁÍËµÄÎÊÌâ£¬¸üÐÂÁË½çÃæ£¬×ÖÌå¸üÇåÎú¡£°æ±¾£º1.0.5.698
+*2016/01/01 ä¿®å¤åº”ç”¨åœ¨ç³»ç»Ÿæ›´æ–°åˆ°10.3.2ä¹‹åŽæŸ¥è¯¢æˆåŠŸåŽé—ªé€€çš„é—®é¢˜ï¼Œæ›´æ–°äº†ç•Œé¢ï¼Œå­—ä½“æ›´æ¸…æ™°ã€‚ç‰ˆæœ¬ï¼š1.0.5.698*
 
-2016/01/17 ½«ÉÏÒ»°æ¶ªÊ§µÄÕÅ¼Ò¸ÛºÍÒøÁª¿¨²éÑ¯ÔÙ´Î²¹³äÉÏÀ´£¬½çÃæÐ¡ÐÞ¸Ä¡£°æ±¾£º1.0.5.728
+*2016/01/17 å°†ä¸Šä¸€ç‰ˆä¸¢å¤±çš„å¼ å®¶æ¸¯å’Œé“¶è”å¡æŸ¥è¯¢å†æ¬¡è¡¥å……ä¸Šæ¥ï¼Œç•Œé¢å°ä¿®æ”¹ã€‚ç‰ˆæœ¬ï¼š1.0.5.728*
 
-2016/03/11 Ôö¼ÓÌì½ò³ÇÊÐ¹«½»»¥Í¨¿¨Ö§³Ö£¬½çÃæÐ¡ÐÞ¸Ä¡£°æ±¾£º1.0.5.765
+*2016/03/11 å¢žåŠ å¤©æ´¥åŸŽå¸‚å…¬äº¤äº’é€šå¡æ”¯æŒï¼Œç•Œé¢å°ä¿®æ”¹ã€‚ç‰ˆæœ¬ï¼š1.0.5.765*
 
-×¢Òâ:
+æ³¨æ„:
 
-1.ÇëÏÈÈ·ÈÏÊÖ»úÉÏNFCÃ»ÓÐÎÊÌâ°É£¬ÌýËµÓÐÈËµÄQºó¸ÇÌìÏß±¾ÉíÓÐÎÊÌâ(ÎÒ×Ô¼ºµÄDev Alpha C»»ÁË¸öQ10µÄÍâ¿Ç£¬NFCµÄ¹¦ÄÜÓÃ²»ÁËÁËÏÖÔÚ:(-);ÔçÒÑ»»ÁË¸öÍâ¿Ç£¬ÒÑ¾­OKÀ²¡£
+1.è¯·å…ˆç¡®è®¤æ‰‹æœºä¸ŠNFCæ²¡æœ‰é—®é¢˜å§ï¼Œå¬è¯´æœ‰äººçš„QåŽç›–å¤©çº¿æœ¬èº«æœ‰é—®é¢˜(æˆ‘è‡ªå·±çš„Dev Alpha Cæ¢äº†ä¸ªQ10çš„å¤–å£³ï¼ŒNFCçš„åŠŸèƒ½ç”¨ä¸äº†äº†çŽ°åœ¨:(-);æ—©å·²æ¢äº†ä¸ªå¤–å£³ï¼Œå·²ç»OKå•¦ã€‚
 
-2.Ò»°ãÖ§³ÖÐÂ·¢¿¨£¬ÀÏ¿¨ÏµÍ³»áÌáÊ¾¿Õ°×»òÎÞ·¨Ê¶±ð(ºÍPTCInquiryÎÞ¹Ø£¬¼´Ê¹²»¿ªPTCInquiryÒ²ÓÐÕâ¸öÌáÊ¾)£¬ÕâÖÖÇé¿ö¾Í²»ÓÃÕÛÌÚÁË¡£
+2.ä¸€èˆ¬æ”¯æŒæ–°å‘å¡ï¼Œè€å¡ç³»ç»Ÿä¼šæç¤ºç©ºç™½æˆ–æ— æ³•è¯†åˆ«(å’ŒPTCInquiryæ— å…³ï¼Œå³ä½¿ä¸å¼€PTCInquiryä¹Ÿæœ‰è¿™ä¸ªæç¤º)ï¼Œè¿™ç§æƒ…å†µå°±ä¸ç”¨æŠ˜è…¾äº†ã€‚
 
-Èç¹ûÄú¾õµÃÓÐÓÃ£¬Çë¸ø¸öÆÀ¼Û£¬PIN: 24DA3902 »òÐÂÀËÎ¢²©@´ó±¦Ðì ·´Ó¦ÎÊÌâ¼°ÁªÏµÌá¹©²âÊÔ¿¨Æ¬£¬Ð»Ð»£¡
+å¦‚æžœæ‚¨è§‰å¾—æœ‰ç”¨ï¼Œè¯·ç»™ä¸ªè¯„ä»·ï¼ŒPIN: 24DA3902 æˆ–æ–°æµªå¾®åš@å¤§å®å¾ ååº”é—®é¢˜åŠè”ç³»æä¾›æµ‹è¯•å¡ç‰‡ï¼Œè°¢è°¢ï¼
 
 ScreenShot:
 ---
 ![PTCInquiry](/assets/images/20130101ptcinquiry.png)
 ---
-![PTCInquiry](/assets/images/20130101ptcinquiry2.png)
+![PTCInquiry2](/assets/images/20130101ptcinquiry2.png)
 ---
-![PTCInquiry](/assets/images/20130101ptcinquiry3.png)
+![PTCInquiry3](/assets/images/20130101ptcinquiry3.png)
 ---
-![PTCInquiry](/assets/images/20130101ptcinquiry4.png)
+![PTCInquiry4](/assets/images/20130101ptcinquiry4.png)
 ---
-![PTCInquiry](/assets/images/20130101ptcinquiry5.png)
+![PTCInquiry5](/assets/images/20130101ptcinquiry5.png)
 ---
-![PTCInquiry](/assets/images/20130101ptcinquiry6.png)
+![PTCInquiry6](/assets/images/20130101ptcinquiry6.png)

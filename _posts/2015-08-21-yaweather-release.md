@@ -6,36 +6,36 @@ categories: windows
 permalink: /windows/2015/08/21/yaweather-release.html
 ---
 
-* YAWeather(ÓÖÒ»¸öÌìÆø) *
+**YAWeather(åˆä¸€ä¸ªå¤©æ°”)**
 
-²ÉÓÃheadlessÓ¦ÓÃÉè¼Æ£¬¶¨Ê±·¢ËÍÌìÆøĞÅÏ¢µ½Blackberry HubÉÏµÄÌáĞÑ¡£
-ÓĞ¸öÉèÖÃ½çÃæ¿ÉÒÔÉèÖÃ·¢ËÍÌìÆøĞÅÏ¢µÄÆµÂÊºÍÊ±¼ä¶Î£¬Çë°ïÃ¦×ª·¢ÏÂ£¬Ğ»Ğ»£¡      
+é‡‡ç”¨headlessåº”ç”¨è®¾è®¡ï¼Œå®šæ—¶å‘é€å¤©æ°”ä¿¡æ¯åˆ°Blackberry Hubä¸Šçš„æé†’ã€‚
+æœ‰ä¸ªè®¾ç½®ç•Œé¢å¯ä»¥è®¾ç½®å‘é€å¤©æ°”ä¿¡æ¯çš„é¢‘ç‡å’Œæ—¶é—´æ®µï¼Œè¯·å¸®å¿™è½¬å‘ä¸‹ï¼Œè°¢è°¢ï¼      
 
 Check out  in BlackBerry World! 
-[YAWeather ÓÖÒ»¸öÌìÆø](https://appworld.blackberry.com/webstore/content/59988661/?lang=en&countrycode=CN) 
+[YAWeather åˆä¸€ä¸ªå¤©æ°”](https://appworld.blackberry.com/webstore/content/59988661/?lang=en&countrycode=CN) 
 
-ÅóÓÑ£¬ÄãÊÇ·ñÒ²ÏñÎÒÒ»Ñù£¬¶ÔÏÖÔÚµÄÎíö²×´¿öµ¨Õ½ĞÄ¾ª£¿Ã¿Ìì³öÃÅÇ°ÏÈ¿´ÏÂÌìÆø×´¿ö£¬ÁË½âºÃºóÔÙ¾ö¶¨´øºÃ×°±¸³öÃÅ¡£µ«ÄãĞèÒªÏÈ´ò¿ª¸÷ÖÖ¸÷ÑùµÄÌìÆøÈí¼ş, È»ºóµÈ´ı¸üĞÂÌìÆøÊı¾İÂğ£¿ Õâ¶ùÓĞ¸öĞ¡¹¤¾ß£¬YAWeather£¡£¨Yet Another Weather£¡Ôİ¶¨Ãû£©£¬¿ÉÒÔÂú×ãÄãµÄÒªÇó¡£Ëü½«ÌìÆøĞÅÏ¢°´ÕÕÄãÖ¸¶¨µÄÆµÂÊÍÆËÍµ½Blackberry HubÉÏµÄÌáĞÑ(Notification)¡£Ö»ÓĞÒ»¸öÅäÖÃµÄ½çÃæ£¬ÆäËû²»ĞèÒª¡£ÔÚÕâ¸öÅäÖÃ½çÃæÀï£¬Äã¿ÉÒÔ´ò¿ª»ò¹Ø±ÕÍÆËÍ¹¦ÄÜ£¨Ä¬ÈÏ¹¦ÄÜ¹Ø±Õ£©£¬ÊäÈëÄãËùÔÚ³ÇÊĞ»òµØÇøµÄÃû×Ö£¨Ä¬ÈÏÎªShanghai£©£¬ÉèÖÃÌìÆøÍÆËÍµÄÆµÂÊ(Ã¿12/6/3/2/1Ğ¡Ê±£¬Ã¿30/15/10/5/3·ÖÖÓ,Ä¬ÈÏÎª3Ğ¡Ê±)£¬ÍÆËÍ¿ªÊ¼ºÍ½áÊøµÄÊ±¼ä£¨Ä¬ÈÏ·Ö±ğÎª6:30ºÍ22:30£©£¬7ÌìÌìÆøÔ¤±¨£¬Ã¿Ğ¡Ê±ÌìÆøÔ¤±¨£¬ÒÔ¼°Éú»îÖ¸ÊıµÈµÈ¡£ÅäÖÃÍê³Éºóµã»÷È·¶¨£¨confirm£©¼´¿É£¬µÈÍÆËÍÌìÆøĞÅÏ¢µ½HubÉÏµÄÌáĞÑ°É¡£µã»÷È·ÈÏÍê³Éºó£¬ÅäÖÃ½çÃæ¾Í¿ÉÒÔ¹ØµôÁË£¬ºóÌ¨³ÌĞò»áÄ¬Ä¬µØÎªÄúÍÆËÍÌìÆøĞÅÏ¢£¡
+æœ‹å‹ï¼Œä½ æ˜¯å¦ä¹Ÿåƒæˆ‘ä¸€æ ·ï¼Œå¯¹ç°åœ¨çš„é›¾éœ¾çŠ¶å†µèƒ†æˆ˜å¿ƒæƒŠï¼Ÿæ¯å¤©å‡ºé—¨å‰å…ˆçœ‹ä¸‹å¤©æ°”çŠ¶å†µï¼Œäº†è§£å¥½åå†å†³å®šå¸¦å¥½è£…å¤‡å‡ºé—¨ã€‚ä½†ä½ éœ€è¦å…ˆæ‰“å¼€å„ç§å„æ ·çš„å¤©æ°”è½¯ä»¶, ç„¶åç­‰å¾…æ›´æ–°å¤©æ°”æ•°æ®å—ï¼Ÿ è¿™å„¿æœ‰ä¸ªå°å·¥å…·ï¼ŒYAWeatherï¼ï¼ˆYet Another Weatherï¼æš‚å®šåï¼‰ï¼Œå¯ä»¥æ»¡è¶³ä½ çš„è¦æ±‚ã€‚å®ƒå°†å¤©æ°”ä¿¡æ¯æŒ‰ç…§ä½ æŒ‡å®šçš„é¢‘ç‡æ¨é€åˆ°Blackberry Hubä¸Šçš„æé†’(Notification)ã€‚åªæœ‰ä¸€ä¸ªé…ç½®çš„ç•Œé¢ï¼Œå…¶ä»–ä¸éœ€è¦ã€‚åœ¨è¿™ä¸ªé…ç½®ç•Œé¢é‡Œï¼Œä½ å¯ä»¥æ‰“å¼€æˆ–å…³é—­æ¨é€åŠŸèƒ½ï¼ˆé»˜è®¤åŠŸèƒ½å…³é—­ï¼‰ï¼Œè¾“å…¥ä½ æ‰€åœ¨åŸå¸‚æˆ–åœ°åŒºçš„åå­—ï¼ˆé»˜è®¤ä¸ºShanghaiï¼‰ï¼Œè®¾ç½®å¤©æ°”æ¨é€çš„é¢‘ç‡(æ¯12/6/3/2/1å°æ—¶ï¼Œæ¯30/15/10/5/3åˆ†é’Ÿ,é»˜è®¤ä¸º3å°æ—¶)ï¼Œæ¨é€å¼€å§‹å’Œç»“æŸçš„æ—¶é—´ï¼ˆé»˜è®¤åˆ†åˆ«ä¸º6:30å’Œ22:30ï¼‰ï¼Œ7å¤©å¤©æ°”é¢„æŠ¥ï¼Œæ¯å°æ—¶å¤©æ°”é¢„æŠ¥ï¼Œä»¥åŠç”Ÿæ´»æŒ‡æ•°ç­‰ç­‰ã€‚é…ç½®å®Œæˆåç‚¹å‡»ç¡®å®šï¼ˆconfirmï¼‰å³å¯ï¼Œç­‰æ¨é€å¤©æ°”ä¿¡æ¯åˆ°Hubä¸Šçš„æé†’å§ã€‚ç‚¹å‡»ç¡®è®¤å®Œæˆåï¼Œé…ç½®ç•Œé¢å°±å¯ä»¥å…³æ‰äº†ï¼Œåå°ç¨‹åºä¼šé»˜é»˜åœ°ä¸ºæ‚¨æ¨é€å¤©æ°”ä¿¡æ¯ï¼
 
-¿ÉÒÔÔÚBlackberry WorldÉÏËÑË÷¡°YAWeather¡±£¬»òÕß Ö±½Ó[µã´Ë](https://appworld.blackberry.com/webstore/content/59988661/?lang=zh_cn&countrycode=CN)ÏÂÔØ¡£
+å¯ä»¥åœ¨Blackberry Worldä¸Šæœç´¢â€œYAWeatherâ€ï¼Œæˆ–è€… ç›´æ¥[ç‚¹æ­¤](https://appworld.blackberry.com/webstore/content/59988661/?lang=zh_cn&countrycode=CN)ä¸‹è½½ã€‚
 
-ps. ´ó°®ÏÂÃæÕâ¸öºìÉ«µÄÈ·ÈÏ°´Å¥£¬ºÍºìÉ«µÄÏŞÁ¿°æZ10ÏÂ°ÍÉÏµÄÑÕÉ«ºÜ´îÅ¶~~~~
+ps. å¤§çˆ±ä¸‹é¢è¿™ä¸ªçº¢è‰²çš„ç¡®è®¤æŒ‰é’®ï¼Œå’Œçº¢è‰²çš„é™é‡ç‰ˆZ10ä¸‹å·´ä¸Šçš„é¢œè‰²å¾ˆæ­å“¦~~~~
 
 ScreenShots:
 ---
 ![YAWeather](/assets/images/20130909yaweather.png)
 ---
-![YAWeather](/assets/images/20130909yaweather1.png)
+![YAWeather1](/assets/images/20130909yaweather1.png)
 ---
-![YAWeather](/assets/images/20130909yaweather2.png)
+![YAWeather2](/assets/images/20130909yaweather2.png)
 ---
-![YAWeather](/assets/images/20130909yaweather3.png)
+![YAWeather3](/assets/images/20130909yaweather3.png)
 ---
-![YAWeather](/assets/images/20130909yaweather4.png)
+![YAWeather4](/assets/images/20130909yaweather4.png)
 ---
-![YAWeather](/assets/images/20130909yaweather5.png)
+![YAWeather5](/assets/images/20130909yaweather5.png)
 ---
-![YAWeather](/assets/images/20130909yaweather6.png)
+![YAWeather6](/assets/images/20130909yaweather6.png)
 ---
-![YAWeather](/assets/images/20130909yaweather7.png)
+![YAWeather7](/assets/images/20130909yaweather7.png)
 ---
-![YAWeather](/assets/images/20130909yaweather8.png)
+![YAWeather8](/assets/images/20130909yaweather8.png)
