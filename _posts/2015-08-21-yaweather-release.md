@@ -1,0 +1,35 @@
+---
+layout: post
+title:  "YAWeather Release"
+date:   2015-08-21 15:16:45 +0800
+categories: windows
+permalink: /windows/2015/08/21/yaweather-release.html
+---
+
+#YAWeather(又一个天气)
+采用headless应用设计，定时发送天气信息到Blackberry Hub上的提醒。
+有个设置界面可以设置发送天气信息的频率和时间段，请帮忙转发下，谢谢！      
+
+Check out  in BlackBerry World! 
+[YAWeather 又一个天气](https://appworld.blackberry.com/webstore/content/59988661/?lang=en&countrycode=CN) 
+
+朋友，你是否也像我一样为最近的雾霾天气感到头疼。每天出门前需要特别留意一下天气状况，带好相应的防护装备才能放心地出门。无需打开任何应用，只要浏览下HUB上的提醒信息即可知道当天的天气状况。而这个小工具将是你正在找的。  YAWeather是一个后台应用，他将按照您的配置时间和频率等配置发送天气信息到BB10 HUB中的提醒。您可以在配置界面中设置任何时间启用或禁用该功能。您还可以设置您自己的城市或地区名称，开始时间和结束时间，频率等，还有7天天气预报，每小时天气预报以及生活指数等（仅适用中国一些城市和地区）。配置界面在配置确认完成即可以关掉。
+
+ScreenShots:
+![YAWeather](/assets/images/20130909yaweather.png)
+---
+![YAWeather](/assets/images/20130909yaweather1.png)
+---
+![YAWeather](/assets/images/20130909yaweather2.png)
+---
+![YAWeather](/assets/images/20130909yaweather3.png)
+---
+![YAWeather](/assets/images/20130909yaweather4.png)
+---
+![YAWeather](/assets/images/20130909yaweather5.png)
+---
+![YAWeather](/assets/images/20130909yaweather6.png)
+---
+![YAWeather](/assets/images/20130909yaweather7.png)
+---
+![YAWeather](/assets/images/20130909yaweather8.png)
