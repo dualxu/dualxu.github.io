@@ -6,13 +6,11 @@ categories: windows
 permalink: /windows/2016/04/13/ptcinquriy-update.html
 ---
 
-* PTCInquiry *
+*PTCInquiry(公交卡余额及交易明细查询工具)*  
 公共交通卡余额和交易记录查询工具已更新，解决BB10 10.3.2下查询后闪退的问题。      
-Check out  in BlackBerry World! 
+Check out  in BlackBerry World! [PTCInquiry 公交卡余额查询工具](https://appworld.blackberry.com/webstore/content/22953873/?countrycode=CN&lang=en) 
 
-[PTCInquiry 公交卡余额查询工具](https://appworld.blackberry.com/webstore/content/22953873/?countrycode=CN&lang=en) 
-
-PTCInquiry(公交卡余额及交易明细查询工具)
+*PTCInquiry(公交卡余额及交易明细查询工具)*
 
 PTCInquiry(Public Transportation Card Inquiry Tool,公交卡余额及交易明细查询工具)是一个目前在黑莓BB10系统上实现的一款应用，可以查询多个城市公交卡余额及交易明细，此外还有ETC及银联电子现金钱包余额及交易记录的查询。公共交通卡查询目前已支持多达50多个城市，其他城市公交卡正在持续增加中……
 
