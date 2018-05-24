@@ -6,11 +6,11 @@ categories: windows
 permalink: /windows/2016/04/13/ptcinquriy-update.html
 ---
 
-
+* PTCInquiry *
 公共交通卡余额和交易记录查询工具已更新，解决BB10 10.3.2下查询后闪退的问题。      
 Check out  in BlackBerry World! 
 
-![PTCInquiry 公交卡余额查询工具](https://appworld.blackberry.com/webstore/content/22953873/?countrycode=CN&lang=en) 
+[PTCInquiry 公交卡余额查询工具](https://appworld.blackberry.com/webstore/content/22953873/?countrycode=CN&lang=en) 
 
 PTCInquiry(公交卡余额及交易明细查询工具)
 
@@ -20,9 +20,9 @@ PTCInquiry(Public Transportation Card Inquiry Tool,公交卡余额及交易明细查询工具)
 
 您的不断鼓励和积极反馈，将会是我持续动力的源泉！您的赞赏将使我感到温暖和陶醉,从而保持此应用的活力和更新。如果您赞赏我的付出,请捐助至frankxu0217#gmail.com(支付宝或PayPal),金额不限,谢谢！
 
-可以通过新浪微博![@大宝徐](http://www.weibo.com/dabaoxu) 还有PIN: 24DA3902 和我联系。如果您有卡片（至少不是空白或无法识别的）可以联系我让我来试试，万一可以呢？！
+可以通过新浪微博[@大宝徐](http://www.weibo.com/dabaoxu) 还有PIN: 24DA3902 和我联系。如果您有卡片（至少不是空白或无法识别的）可以联系我让我来试试，万一可以呢？！
 
-可以在Blackberry World上搜索“PTCInquiry”，或者 直接![点此](http://appworld.blackberry.com/webstore/content/22953873/?countrycode=CN&lang=zh_cn)下载
+可以在Blackberry World上搜索“PTCInquiry”，或者 直接[点此](http://appworld.blackberry.com/webstore/content/22953873/?countrycode=CN&lang=zh_cn)下载
 
 支持互通以后，这里提及的城市公交卡都可以查询，请使用“上海及互联互通卡”试试，期待你的反馈，谢谢。
 
@@ -44,9 +44,9 @@ PTCInquiry(Public Transportation Card Inquiry Tool,公交卡余额及交易明细查询工具)
 
 相关链接：
 
-![公交卡读卡器【CardReader】-可以获取公交卡余额和近期交易记录，已支持多个城市](http://cnbbdevgroup.com/forum.php?mod=viewthread&tid=2288)
+[公交卡读卡器【CardReader】-可以获取公交卡余额和近期交易记录，已支持多个城市](http://cnbbdevgroup.com/forum.php?mod=viewthread&tid=2288)
 
-![公交卡余额查询工具—Search PTCInquiry更新解决闪退问题了](http://www.51blackberry.com/2016/01/06/search-ptcinquiry/)
+[公交卡余额查询工具—Search PTCInquiry更新解决闪退问题了](http://www.51blackberry.com/2016/01/06/search-ptcinquiry/)
 
 
 
@@ -95,6 +95,7 @@ PTCInquiry(Public Transportation Card Inquiry Tool,公交卡余额及交易明细查询工具)
 如果您觉得有用，请给个评价，PIN: 24DA3902 或新浪微博@大宝徐 反应问题及联系提供测试卡片，谢谢！
 
 ScreenShot:
+---
 ![PTCInquiry](/assets/images/20130101ptcinquiry.png)
 ---
 ![PTCInquiry](/assets/images/20130101ptcinquiry2.png)
