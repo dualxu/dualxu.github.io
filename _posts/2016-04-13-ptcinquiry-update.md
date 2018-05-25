@@ -6,7 +6,7 @@ date:         2016-04-13 10:20:31
 author:       "Devdog"
 header-img:   "/img/in-post/20130101ptcinquiry3.png"
 header-mask:  0.3
-catalog:      true
+catalog:      windows
 multilingual: true
 tags:
     - Blackberry
