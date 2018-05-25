@@ -1,10 +1,17 @@
 ---
-layout: post
-title:  "Hello World"
-date:   2013-05-15 11:31:42 +0800
-categories: windows
-permalink: /windows/2013/05/15/hello-world.html
+layout:       post
+title:        "Hello World"
+subtitle:     "The first blog"
+date:         2013-05-15 11:31:42
+author:       "Devdog"
+header-img:   "/img/in-post/devdog.jpg"
+header-mask:  0.3
+catalog:      windows
+multilingual: false
+tags:
+    - 
 ---
+
 
 Hello World！
 

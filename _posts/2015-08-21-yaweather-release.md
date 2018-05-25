@@ -1,9 +1,17 @@
 ---
-layout: post
-title:  "YAWeather Release"
-date:   2015-08-21 15:16:45 +0800
-categories: windows
-permalink: /windows/2015/08/21/yaweather-release.html
+layout:       post
+title:        "YAWeather Release"
+subtitle:     "Yet Another Weather Service"
+date:         2015-08-21 15:16:45
+author:       "Devdog"
+header-img:   "/img/in-post/20130909yaweather.png"
+header-mask:  0.3
+catalog:      windows
+multilingual: false
+tags:
+    - Blackberry
+    - Weather
+    - Service
 ---
 
 **YAWeather(又一个天气)**
@@ -22,15 +30,15 @@ ps. 大爱下面这个红色的确认按钮，和红色的限量版Z10下巴上�
 
 ScreenShots:
 ---
-![YAWeather](/assets/images/20130909yaweather.png)
+![YAWeather](/img/in-post/20130909yaweather.png)
 ---
-![YAWeather1](/assets/images/20130909yaweather1.png)
+![YAWeather1](/img/in-post/20130909yaweather1.png)
 ---
-![YAWeather2](/assets/images/20130909yaweather2.png)
+![YAWeather2](/img/in-post/20130909yaweather2.png)
 ---
-![YAWeather3](/assets/images/20130909yaweather3.png)
+![YAWeather3](/img/in-post/20130909yaweather3.png)
 ---
-![YAWeather4](/assets/images/20130909yaweather4.png)
+![YAWeather4](/img/in-post/20130909yaweather4.png)
 ---
 ![YAWeather5](/assets/images/20130909yaweather5.png)
 ---

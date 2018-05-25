@@ -7,7 +7,7 @@ author:       "Devdog"
 header-img:   "/img/in-post/20130101ptcinquiry3.png"
 header-mask:  0.3
 catalog:      windows
-multilingual: true
+multilingual: false
 tags:
     - Blackberry
     - 公交卡

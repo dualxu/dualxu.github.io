@@ -1,11 +1,16 @@
 ---
-layout: post
-title:  "Error:Code signing request failed because this file has been previously signed"
-date:   2015-02-28 19:24:43 +0800
-categories: windows
-permalink: /windows/2015/02/28/error-code-signing-request-failed-because-this-file-has-been-previously-signed.html
+layout:       post
+title:        "Error:Code signing request failed because this file has been previously signed"
+subtitle:     "代码签名问题"
+date:         2015-02-28 19:24:43
+author:       "Devdog"
+header-img:   "/img/in-post/blackberryphones.jpg"
+header-mask:  0.3
+catalog:      windows
+multilingual: false
+tags:
+    - Blackberry
 ---
-
 
 
 今天更新PTCInquiry，在Momentics IDE环境下更改bar-descriptor.xml中Localization增加了中文和英文，然后就出现“Code signing request failed because this file has been previously signed”的错误了。原因是因为这个版本已经签名过了，不能再次签名，需要升级版本。提示中给出解决方法了，需要更新Package Version或Package Build ID， 支持论坛上也是这样说的，参见：[here](http://supportforums.blackberry.com/t5/Testing-and-Deployment/Code-signing-request-failed-because-this-file-has-been/ta-p/798291)
