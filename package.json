@@ -1,41 +1,28 @@
 {
-  "name": "jekyll-text-theme",
-  "version": "1.5.0",
-  "description": "A text first theme for Jekyll.",
-  "scripts": {
-    "build": "bundle exec jekyll build",
-    "serve": "bundle exec jekyll serve -H 0.0.0.0",
-    "default": "bundle exec jekyll serve -H 0.0.0.0 -t",
-    "dev": "bundle exec jekyll serve -H 0.0.0.0 -t --config ./_config.dev.yml",
-    "demo-dev": "bundle exec jekyll serve -H 0.0.0.0 -t --config ./_config.demo.yml",
-    "demo-beta": "JEKYLL_ENV=beta bundle exec jekyll serve -H 0.0.0.0 -t --config ./_config.demo.yml",
-    "demo-production": "JEKYLL_ENV=production bundle exec jekyll serve -H 0.0.0.0 -t --config ./_config.demo.yml",
-    "favicon": "gulp favicon",
-    "icons": "gulp icons",
-    "artwork": "gulp artwork",
-    "gem-build": "rm -fv jekyll-text-theme-*.gem && gem build jekyll-text-theme.gemspec",
-    "gem-push": "gem push jekyll-text-theme-*.gem"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kitian616/kitian616.github.io.git"
-  },
-  "keywords": [
-    "jekyll",
-    "jekyll-theme",
-    "jekyll-template"
-  ],
-  "author": "Tian Qi",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/kitian616/issues"
-  },
-  "homepage": "https://github.com/kitian616#readme",
-  "devDependencies": {
-    "eslint": "^4.19.1",
-    "gulp": "^3.9.1",
-    "gulp-rename": "^1.2.2",
-    "gulp-svg2png": "^2.0.2",
-    "gulp-to-ico": "^1.0.0"
-  }
+    "name": "hux-blog",
+    "title": "Hux Blog",
+    "author": "Hux <huxpro@gmail.com>",
+    "version": "1.7.0",
+    "homepage": "http://huxpro.github.io",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Huxpro/huxpro.github.io"
+    },
+    "bugs": "https://github.com/Huxpro/huxpro.github.io/issues",
+    "devDependencies": {
+        "grunt": "~0.4.5",
+        "grunt-contrib-less": "~0.11.4",
+        "grunt-contrib-watch": "~0.6.1",
+        "grunt-banner": "~0.2.3",
+        "grunt-contrib-uglify": "~0.5.1"
+    },
+    "scripts": {
+        "preview": "cd _site; python -m SimpleHTTPServer 8020",
+        "py3view": "cd _site; python3 -m http.server 8020",
+        "watch"  : "grunt watch & npm run preview & jekyll serve -w",
+        "py3wa"  : "grunt watch & npm run py3view & jekyll serve -w",
+        "boil"   : "git push boilerplate boilerplate:master",
+        "push"   : "git push origin master --tag",
+        "cafe"   : "git co gitcafe-pages; git merge master; git push gitcafe gitcafe-pages:gitcafe-pages --tag; git co master;"
+    }
 }

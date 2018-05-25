@@ -1,167 +1,99 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-#
-# ,--------.      ,--.   ,--. ,--.
-# '--.  .--',---.  \  `.'  /,-'  '-.
-#    |  |  | .-. :  .'    \ '-.  .-'
-#    |  |  \   --. /  .'.  \  |  |
-#    `--'   `----''--'   '--' `--'
+# Site settings
+title: Devdog Blog
+SEOTitle: Devdog的博客 | Devdog to Top
+header-img: img/home-bg.jpg
+email: frankxu0217@outlook.com
+description: "关于自助终端与设计 | Software Engineer | 这里是Devdog的个人博客，与你一起发现更大的世界。"
+keyword: "挨踢男，攻城狮，双胞胎爸爸，黑莓粉"
+url: "https://devdog.top"              # your host, for absolute URL
+baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 
-
-## => Site Settings
-##############################
-text_color_theme: dark # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
-url: http://dualxu.github.io # the base hostname & protocol for your site e.g. https://www.someone.com
-baseurl: # does not include hostname
-title: Devdog to Top
-description: > # this means to ignore newlines until "Language & timezone"
-  Devdog to Top
-
-
-## => Language and Timezone
-##############################
-lang: zh # the language of your site, "en" (default, English), "zh"(简体中文), "zh-Hans"(简体中文), "zh-Hant"(繁體中文)
-timezone: Asia/Shanghai # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
+# SNS settings
+RSS: false
+weibo_username:     dabaoxu
+zhihu_username:     dualxu
+github_username:    dualxu
+twitter_username:   dualxu
+#facebook_username:  xuwithxu
+# linkedin_username:  xu-xu-34987b21
 
 
-## => Author and Social
-##############################
-author:
-  name: dualxu
-  email: frankxu0217#outlook.com # your Email address e.g. someone@site.com
-  facebook: xuwithxu # your Facebook username
-  twitter: dualxu # your Twitter username
-  github: dualxu # your GitHub username
-  linkedin: xu-xu-34987b21 # your Linkedin username
-  googleplus: dualxu # your Google+ username
-  weibo: dabaoxu # your Weibo username
-  douban: dualxu # your Douban username
 
-
-## => GitHub Repository (if the site is hosted by GitHub)
-##############################
-repository: dualxu/dualxu.github.io
-repository_tree: master
-
-
-## => Navigation
-##############################
-paths:
-  base: /
-  home: /
-  all:  /all.html
-  rss:  /feed.xml
-
-nav_lists:
-  - titles:
-      en: About
-      zh: 关于
-      zh-Hans: 关于
-      zh-Hant: 關於
-      url: /about.html
-
-
-## => Post
-##############################
-## excerpt
-excerpt_separator: <!--more-->
-excerpt_type: text # text (default), html
-
-## TOC
-toc:
-  selectors: # "h1,h2,h3" (default)
-
-## Markdown Enhancements
-
-# Mathjax
-mathjax: # false (default), true
-mathjax_autoNumber: # false (default), true
-
-# Mermaid
-mermaid: # false (default), true
-
-# Chart
-chart: # false (default), true
-
-
-## => Paginate
-##############################
-paginate: 8
-paginate_path: /blog/page:num # don't change this unless for special need
-
-
-## => Sources
-##############################
-sources: # bootcdn (default), unpkg
-
-
-## => Comments
-##############################
-## Disqus
-disqus:
-  shortname: dualxu # the Disqus shortname for the site
-
-## Gitalk
-# please refer to https://github.com/gitalk/gitalk for more info.
-gitalk:
-  clientID: # GitHub Application Client ID
-  clientSecret: # GitHub Application Client Secret
-  repository: # GitHub repo
-  owner: # GitHub repo owner
-  admin: # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
-    # - your GitHub Id
-
-
-## => Pageview
-##############################
-## Leancloud
-leancloud:
-  app_id: # LeanCloud App id
-  app_key: # LeanCloud App key
-  app_class: # LeanCloud App class
-
-
-## => Analytics
-##############################
-## Google Analytics
-ga_tracking_id: # Google Analytics id for the site
-
-
-## => Build
-##############################
-markdown: kramdown
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
 highlighter: rouge
-permalink: date
-
-exclude:
-  - CHANGELOG.md
-  - CHECKLIST.md
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE
-  - README-*.md
-  - README.md
-  - gulpfile.js
-  - jekyll-text-theme.gemspec
-  - package-lock.json
-  - package.json
-  - /docs
-  - /node_modules
-  - /screenshots
-  - /test
-  - /vendor
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 
 
-## => Plugins
-##############################
-plugins:
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jemoji
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+gems: [jekyll-paginate]
+
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+
+
+# Disqus settings
+disqus_username: dualxu
+
+# Netease setttings
+netease_comment: false
+
+
+
+# Analytics settings
+# Baidu Analytics 
+# ba_track_id: [your track id]
+
+# Google Analytics
+ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
+ga_domain: devdog.top
+
+
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "写写代码，做做设计，<br>离开世界之前，一切都是过程"
+sidebar-avatar: /img/avatar-hux.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+
+# Featured Tags
+featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+
+
+
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: true
+
+
+
+# Friends
+friends: [
+    {
+    #     title: "Su",
+    #     href: "http://su.gallery/"
+    # },{
+        title: "乱序",
+        href: "http://mida.re/"
+    },{
+        title: "天镶的博客",
+        href: "http://lingyu.wang/"
+    }
+]
