@@ -19,9 +19,9 @@
 text_color_theme: dark # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
 url: http://dualxu.github.io # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl: # does not include hostname
-title: Devdog
+title: Devdog to Top
 description: > # this means to ignore newlines until "Language & timezone"
-  Devdog
+  Devdog to Top
 
 
 ## => Language and Timezone
@@ -55,7 +55,7 @@ repository_tree: master
 paths:
   base: /
   home: /
-  all:  /all.html
+  all:  /_layouts/all.html
   rss:  /feed.xml
 
 nav_lists:
@@ -64,7 +64,7 @@ nav_lists:
       zh: 关于
       zh-Hans: 关于
       zh-Hant: 關於
-    url: /about.html
+      url: /about.html
 
 
 ## => Post

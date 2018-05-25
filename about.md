@@ -8,7 +8,7 @@ titles:
 key: page-about
 ---
 
-Welcome to my blog! 
+Welcome to {{site.title}}! 
 
 {% highlight javascript %}
 (() => console.log('hello, world!'))();

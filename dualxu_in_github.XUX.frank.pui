@@ -1,36 +1,46 @@
 [Open Files]
 Active File Display Mode=3
 Active File Index=0
-Open File Line0=4032
+Open File Line0=3678
 Open File Line1=2
 Open File Line2=2
 Open File Line3=2
 Open File Line4=2
-Open File Pos0=4184
-Open File Pos1=348
-Open File Pos2=386
-Open File Pos3=2
-Open File Pos4=1366
+Open File Line5=374
+Open File Line6=1421
+Open File Line7=0
+Open File Pos0=3930
+Open File Pos1=386
+Open File Pos2=2
+Open File Pos3=1366
+Open File Pos4=130
+Open File Pos5=780
+Open File Pos6=268
+Open File Pos7=95
 Open File Window Pos0=2,3,-1,-1,-8,-31,26,26,1023,275
-Open File Window Pos1=0,1,-1,-1,-8,-31,0,0,997,249
-Open File Window Pos2=0,1,-1,-1,-8,-31,52,52,895,346
-Open File Window Pos3=0,1,-1,-1,-8,-31,78,78,949,372
-Open File Window Pos4=0,1,-1,-1,-8,-31,104,104,975,398
+Open File Window Pos1=0,1,-1,-1,-8,-31,52,52,895,346
+Open File Window Pos2=0,1,-1,-1,-8,-31,78,78,949,372
+Open File Window Pos3=0,1,-1,-1,-8,-31,104,104,975,398
+Open File Window Pos4=0,1,-1,-1,-8,-31,130,130,1138,403
+Open File Window Pos5=0,1,-1,-1,-8,-31,26,26,1013,255
+Open File Window Pos6=0,1,-1,-1,-8,-31,52,52,1039,281
+Open File Window Pos7=0,1,-1,-1,-8,-31,78,78,1065,307
 Open File0=D:\WorkSpace\Work2018\DevSpec\github.io\dualxu.github.io\_config.yml
-Open File1=D:\WorkSpace\Work2018\DevSpec\github.io\dualxu.github.io.backup\_posts\2013\2013-05-15-hello-world.md
-Open File2=D:\WorkSpace\Work2018\DevSpec\github.io\dualxu.github.io\_posts\2016-04-13-ptcinquiry-update.md
-Open File3=D:\WorkSpace\Work2018\DevSpec\github.io\dualxu.github.io\_posts\2013-05-15-hello-world.md
-Open File4=D:\WorkSpace\Work2018\DevSpec\github.io\dualxu.github.io\_posts\2015-02-28-error-code-signing-request-failed-because-this-file-has-been-previously-signed.md
-Open File5=
+Open File1=D:\WorkSpace\Work2018\DevSpec\github.io\dualxu.github.io\_posts\2016-04-13-ptcinquiry-update.md
+Open File2=D:\WorkSpace\Work2018\DevSpec\github.io\dualxu.github.io\_posts\2013-05-15-hello-world.md
+Open File3=D:\WorkSpace\Work2018\DevSpec\github.io\dualxu.github.io\_posts\2015-02-28-error-code-signing-request-failed-because-this-file-has-been-previously-signed.md
+Open File4=D:\WorkSpace\Work2018\DevSpec\github.io\dualxu.github.io\about.md
+Open File5=D:\WorkSpace\Work2018\DevSpec\github.io\dualxu.github.io\_layouts\all.html
+Open File6=D:\WorkSpace\Work2018\DevSpec\github.io\dualxu.github.io\_includes\tags.html
+Open File7=D:\WorkSpace\Work2018\DevSpec\github.io\dualxu.github.io\_layouts\base.html
+Open File8=
 Remember Files=1
 
 [Project Information]
 Project Start=E20705000300170015001800250000005A
-Working Time=17255
+Working Time=18299
 
 [Folders]
 .\=1
-.\ - _data=1
-.\ - screenshots=1
-.\ - assets=1
 .\ - _posts=1
+.\ - _layouts=1
