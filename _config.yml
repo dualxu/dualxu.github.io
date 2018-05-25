@@ -87,13 +87,7 @@ service-worker: true
 # Friends
 friends: [
     {
-    #     title: "Su",
-    #     href: "http://su.gallery/"
-    # },{
-        title: "乱序",
-        href: "http://mida.re/"
-    },{
-        title: "天镶的博客",
-        href: "http://lingyu.wang/"
+        title: "待添加...",
+        href: ""
     }
 ]

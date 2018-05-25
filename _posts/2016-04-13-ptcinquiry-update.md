@@ -1,10 +1,19 @@
 ---
-layout: post
-title:  "PTCInquiry update"
-date:   2016-04-13 10:20:31 +0800
-categories: windows
-permalink: /windows/2016/04/13/ptcinquriy-update.html
+layout:       post
+title:        "PTCInquiry update"
+subtitle:     "Upgrading to 1.0.5.765"
+date:         2016-04-13 10:20:31
+author:       "Devdog"
+header-img:   "/img/in-post/20130101ptcinquiry3.png"
+header-mask:  0.3
+catalog:      true
+multilingual: true
+tags:
+    - Blackberry
+    - 公交卡
+    - NFC
 ---
+
 
 **PTCInquiry(公交卡余额及交易明细查询工具)**
  
@@ -92,14 +101,14 @@ PTCInquiry(Public Transportation Card Inquiry Tool,公交卡余额及交易明�
 
 ScreenShot:
 ---
-![PTCInquiry](/assets/images/20130101ptcinquiry.png)
+![PTCInquiry](/img/in-post/20130101ptcinquiry.png)
 ---
-![PTCInquiry2](/assets/images/20130101ptcinquiry2.png)
+![PTCInquiry2](/img/in-post/20130101ptcinquiry2.png)
 ---
-![PTCInquiry3](/assets/images/20130101ptcinquiry3.png)
+![PTCInquiry3](/img/in-post/20130101ptcinquiry3.png)
 ---
-![PTCInquiry4](/assets/images/20130101ptcinquiry4.png)
+![PTCInquiry4](/img/in-post/20130101ptcinquiry4.png)
 ---
-![PTCInquiry5](/assets/images/20130101ptcinquiry5.png)
+![PTCInquiry5](/img/in-post/20130101ptcinquiry5.png)
 ---
-![PTCInquiry6](/assets/images/20130101ptcinquiry6.png)
+![PTCInquiry6](/img/in-post/20130101ptcinquiry6.png)
