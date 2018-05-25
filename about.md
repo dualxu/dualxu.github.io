@@ -8,7 +8,7 @@ titles:
 key: page-about
 ---
 
-Welcome to {{site.title}}! 
+Welcome to Devdog to Top! 
 
 {% highlight javascript %}
 (() => console.log('hello, world!'))();

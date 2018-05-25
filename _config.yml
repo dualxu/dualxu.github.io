@@ -55,7 +55,7 @@ repository_tree: master
 paths:
   base: /
   home: /
-  all:  /_layouts/all.html
+  all:  /layouts/all.html
   rss:  /feed.xml
 
 nav_lists:

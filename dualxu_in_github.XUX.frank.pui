@@ -1,7 +1,7 @@
 [Open Files]
 Active File Display Mode=3
-Active File Index=0
-Open File Line0=3678
+Active File Index=4
+Open File Line0=3896
 Open File Line1=2
 Open File Line2=2
 Open File Line3=2
@@ -9,19 +9,19 @@ Open File Line4=2
 Open File Line5=374
 Open File Line6=1421
 Open File Line7=0
-Open File Pos0=3930
+Open File Pos0=3984
 Open File Pos1=386
 Open File Pos2=2
 Open File Pos3=1366
-Open File Pos4=130
+Open File Pos4=260
 Open File Pos5=780
 Open File Pos6=268
 Open File Pos7=95
-Open File Window Pos0=2,3,-1,-1,-8,-31,26,26,1023,275
+Open File Window Pos0=0,1,-1,-1,-8,-31,26,26,1023,275
 Open File Window Pos1=0,1,-1,-1,-8,-31,52,52,895,346
 Open File Window Pos2=0,1,-1,-1,-8,-31,78,78,949,372
 Open File Window Pos3=0,1,-1,-1,-8,-31,104,104,975,398
-Open File Window Pos4=0,1,-1,-1,-8,-31,130,130,1138,403
+Open File Window Pos4=2,3,-1,-1,-8,-31,130,130,1138,403
 Open File Window Pos5=0,1,-1,-1,-8,-31,26,26,1013,255
 Open File Window Pos6=0,1,-1,-1,-8,-31,52,52,1039,281
 Open File Window Pos7=0,1,-1,-1,-8,-31,78,78,1065,307
@@ -38,7 +38,7 @@ Remember Files=1
 
 [Project Information]
 Project Start=E20705000300170015001800250000005A
-Working Time=18299
+Working Time=18356
 
 [Folders]
 .\=1
