@@ -20,5 +20,16 @@ Hello World！
 欢迎来到我的博客！
 第一次使用,请多关照
 
+'
+#include "stdio.h"
+#include "stdlib.h"
+
+int main(void)
+{
+	printf("Hello World!");
+	return;
+}
+'
+
 ---
 
