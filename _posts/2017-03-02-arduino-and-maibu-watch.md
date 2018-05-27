@@ -4,7 +4,7 @@ title:        "Arduino和麦步手表"
 subtitle:     "麦步论坛活动"
 date:         2017-03-02 21:53:43
 author:       "Devdog"
-header-img:   "/img/in-post/post-bg-rwd.jpg"
+header-img:   "/img/post-bg-rwd.jpg"
 header-mask:  0.3
 catalog:      windows
 multilingual: false

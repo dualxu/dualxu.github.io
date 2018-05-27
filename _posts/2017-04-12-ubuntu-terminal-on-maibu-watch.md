@@ -4,7 +4,7 @@ title:        "麦步手表上的terminal"
 subtitle:     "麦步论坛活动"
 date:         2017-04-12 22:05:32
 author:       "Devdog"
-header-img:   "/img/in-post/post-bg-rwd.jpg"
+header-img:   "/img/post-bg-rwd.jpg"
 header-mask:  0.3
 catalog:      windows
 multilingual: false
