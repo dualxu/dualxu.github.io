@@ -1,6 +1,6 @@
 ---
 layout:       post
-title:        "请各位莓友赞助各地卡片用于测试"
+title:        "请莓友赞助卡片用于测试"
 subtitle:     "测试求助"
 date:         2013-09-28 14:53:23
 author:       "Devdog"

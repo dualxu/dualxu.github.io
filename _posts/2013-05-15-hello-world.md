@@ -26,7 +26,7 @@ Hello World！
 	int main(void)
 	{
 		printf("Hello World!");
-		return;
+		return 0;
 	}
 
 
