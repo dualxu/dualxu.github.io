@@ -1,7 +1,7 @@
 ---
 layout:       post
 title:        "关于黑莓NFC API的疑问"
-subtitle:     ""
+subtitle:     "10.3版本下NFC API没看到具体更新说明"
 date:         2015-01-20 17:23:29
 author:       "Devdog"
 header-img:   "/img/in-post/20130101ptcinquiry4.png"
