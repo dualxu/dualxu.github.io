@@ -4,7 +4,7 @@ title:        "请莓友赞助卡片用于测试"
 subtitle:     "测试求助"
 date:         2013-09-28 14:53:23
 author:       "Devdog"
-header-img:   "/img/in-post/20130101ptcinquiry2.png"
+header-img:   "/img/in-post/home-bg-art.jpg"
 header-mask:  0.3
 catalog:      windows
 multilingual: false
