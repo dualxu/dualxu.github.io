@@ -14,6 +14,7 @@ tags:
     - Service
 ---
 
+
 **YAWeather(又一个天气)**
 
 采用headless应用设计，定时发送天气信息到Blackberry Hub上的提醒。
@@ -47,3 +48,4 @@ ScreenShots:
 ![YAWeather7](/assets/images/20130909yaweather7.png)
 ---
 ![YAWeather8](/assets/images/20130909yaweather8.png)
+
