@@ -48,4 +48,3 @@ ScreenShots:
 ![YAWeather7](/assets/images/20130909yaweather7.png)
 ---
 ![YAWeather8](/assets/images/20130909yaweather8.png)
-

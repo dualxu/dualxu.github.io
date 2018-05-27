@@ -1,6 +1,6 @@
 ---
 layout:       post
-title:        "Arduino´îµÄÒ»¸öÇã½Ç²âÁ¿ÏµÍ³"
+title:        "Arduinoæ­çš„ä¸€ä¸ªå€¾è§’æµ‹é‡ç³»ç»Ÿ"
 subtitle:     "Arduino+ADXL345+OLED"
 date:         2016-08-13 22:11:01
 author:       "Devdog"
@@ -9,10 +9,9 @@ header-mask:  0.3
 catalog:      windows
 multilingual: false
 tags:
-    - Âó²½
+    - éº¦æ­¥
 ---
 
 
-×î½üÖÜÄ©ÓÃarduino×öÁË¸öÇã½Ç²âÁ¿ÏµÍ³£¬ÊµÊ±ÏÔÊ¾Á½¸öÆ½ÃæµÄ½Ç¶È¡£
-Ê¹ÓÃadxl345Ä£¿éºÍ0.96`OLEDÏÔÊ¾ÆÁ¡£
-
+æœ€è¿‘å‘¨æœ«ç”¨arduinoåšäº†ä¸ªå€¾è§’æµ‹é‡ç³»ç»Ÿï¼Œå®æ—¶æ˜¾ç¤ºä¸¤ä¸ªå¹³é¢çš„è§’åº¦ã€‚
+ä½¿ç”¨adxl345æ¨¡å—å’Œ0.96`OLEDæ˜¾ç¤ºå±ã€‚
