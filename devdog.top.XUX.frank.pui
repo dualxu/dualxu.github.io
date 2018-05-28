@@ -1,6 +1,6 @@
 [Open Files]
 Active File Display Mode=3
-Active File Index=2
+Active File Index=15
 Open File Line0=2
 Open File Line1=0
 Open File Line10=2
@@ -8,6 +8,8 @@ Open File Line11=2
 Open File Line12=2
 Open File Line13=2
 Open File Line14=2
+Open File Line15=3112
+Open File Line16=2440
 Open File Line2=2
 Open File Line3=2
 Open File Line4=2
@@ -23,6 +25,8 @@ Open File Pos11=316
 Open File Pos12=318
 Open File Pos13=322
 Open File Pos14=460
+Open File Pos15=3272
+Open File Pos16=3138
 Open File Pos2=332
 Open File Pos3=312
 Open File Pos4=342
@@ -38,7 +42,9 @@ Open File Window Pos11=0,1,-1,-1,-8,-31,26,26,720,294
 Open File Window Pos12=0,1,-1,-1,-8,-31,52,52,746,294
 Open File Window Pos13=0,1,-1,-1,-8,-31,78,78,772,320
 Open File Window Pos14=0,1,-1,-1,-8,-31,104,104,798,346
-Open File Window Pos2=2,3,-1,-1,-8,-31,52,52,813,399
+Open File Window Pos15=2,3,-1,-1,-8,-31,78,78,969,347
+Open File Window Pos16=0,1,-1,-1,-8,-31,0,0,995,101
+Open File Window Pos2=0,1,-1,-1,-8,-31,52,52,813,399
 Open File Window Pos3=0,1,-1,-1,-8,-31,78,78,746,398
 Open File Window Pos4=0,1,-1,-1,-8,-31,104,104,772,424
 Open File Window Pos5=0,1,-1,-1,-8,-31,130,130,798,424
@@ -53,7 +59,9 @@ Open File11=D:\WorkSpace\Work2018\DevSpec\github.io\dualxu.github.io\_posts\2016
 Open File12=D:\WorkSpace\Work2018\DevSpec\github.io\dualxu.github.io\_posts\2017-03-02-arduino-and-maibu-watch.md
 Open File13=D:\WorkSpace\Work2018\DevSpec\github.io\dualxu.github.io\_posts\2017-04-12-ubuntu-terminal-on-maibu-watch.md
 Open File14=D:\WorkSpace\Work2018\DevSpec\github.io\dualxu.github.io\_posts\2017-05-05-maibu-watch.md
-Open File15=
+Open File15=D:\WorkSpace\Work2018\DevSpec\github.io\dualxu.github.io\_config.yml
+Open File16=D:\WorkSpace\Work2018\DevSpec\github.io\dualxu.github.io\README.md
+Open File17=
 Open File2=D:\WorkSpace\Work2018\DevSpec\github.io\dualxu.github.io\_posts\2013-05-15-hello-world.md
 Open File3=D:\WorkSpace\Work2018\DevSpec\github.io\dualxu.github.io\_posts\2013-09-08-ask-for-cards-for-testing.md
 Open File4=D:\WorkSpace\Work2018\DevSpec\github.io\dualxu.github.io\_posts\2014-01-23-prepare-to-buy-one-more-kindle.md
@@ -66,7 +74,7 @@ Remember Files=1
 
 [Project Information]
 Project Start=E20705000500190010001600380000006A
-Working Time=24959
+Working Time=26893
 
 [Folders]
 .\=1
