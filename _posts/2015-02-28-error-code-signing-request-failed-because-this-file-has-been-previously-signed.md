@@ -4,7 +4,7 @@ title:        "Error:Code signing request failed because this file has been prev
 subtitle:     "代码签名问题"
 date:         2015-02-28 19:24:43
 author:       "Devdog"
-header-img:   "/img/post-bg-android.jpg"
+header-img:   "img/post-bg-android.jpg"
 header-mask:  0.3
 catalog:      windows
 multilingual: false

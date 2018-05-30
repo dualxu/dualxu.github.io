@@ -4,7 +4,7 @@ title:        "Hello World"
 subtitle:     "The first blog"
 date:         2013-05-15 11:31:42
 author:       "Devdog"
-header-img:   "/img/home-bg-geek.jpg"
+header-img:   "img/home-bg-geek.jpg"
 header-mask:  0.3
 catalog:      windows
 multilingual: false

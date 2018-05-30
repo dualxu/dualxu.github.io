@@ -4,7 +4,7 @@ title:        "关于黑莓NFC API的疑问"
 subtitle:     "10.3版本下NFC API没看到具体更新说明"
 date:         2015-01-20 17:23:29
 author:       "Devdog"
-header-img:   "/img/post-bg-2015.jpg"
+header-img:   "img/post-bg-2015.jpg"
 header-mask:  0.3
 catalog:      windows
 multilingual: false

@@ -4,7 +4,7 @@ title:        "PTCInquiry update"
 subtitle:     "Upgrading to 1.0.5.765"
 date:         2016-04-13 10:20:31
 author:       "Devdog"
-header-img:   "/img/post-bg-universe.jpg"
+header-img:   "img/post-bg-universe.jpg"
 header-mask:  0.3
 catalog:      windows
 multilingual: false

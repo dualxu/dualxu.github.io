@@ -4,7 +4,7 @@ title:        "更新:修复公交卡余额查询工具在BB10 10.3.2系统下�
 subtitle:     ""
 date:         2016-01-14 09:31:44
 author:       "Devdog"
-header-img:   "/img/post-bg-os-metro.jpg"
+header-img:   "img/post-bg-os-metro.jpg"
 header-mask:  0.3
 catalog:      windows
 multilingual: false

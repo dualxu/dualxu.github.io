@@ -4,7 +4,7 @@ title:        "YAWeather Release"
 subtitle:     "Yet Another Weather Service"
 date:         2015-08-21 15:16:45
 author:       "Devdog"
-header-img:   "/img/post-bg-js-module.jpg"
+header-img:   "img/post-bg-js-module.jpg"
 header-mask:  0.3
 catalog:      windows
 multilingual: false

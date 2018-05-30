@@ -4,7 +4,7 @@ title:        "麦步智能手表"
 subtitle:     "我好像看到了好玩的东东"
 date:         2016-09-08 12:35:54
 author:       "Devdog"
-header-img:   "/img/post-bg-rwd.jpg"
+header-img:   "img/post-bg-rwd.jpg"
 header-mask:  0.3
 catalog:      windows
 multilingual: false

@@ -4,7 +4,7 @@ title:        "准备再入手Kindle一枚"
 subtitle:     "Kindle Paperwhite"
 date:         2014-01-23 17:23:29
 author:       "Devdog"
-header-img:   "/img/home-bg-o.jpg"
+header-img:   "img/home-bg-o.jpg"
 header-mask:  0.3
 catalog:      windows
 multilingual: false
