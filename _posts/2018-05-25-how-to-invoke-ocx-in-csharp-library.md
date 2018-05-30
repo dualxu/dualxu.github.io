@@ -21,20 +21,20 @@ tags:
 
 将要用的.ocx文件拷贝到Visual Studio 2012安装目录下的VC文件夹，例如我的是：D:\Applications\Microsoft Visual Studio 11.0\VC，使用regsvr32.exe工具进行注册(需要管理员权限，即在管理员权限下打开cmd.exe)
 
-！[RegisterOCX](/img/in-post/20180525/registerocx.png)
+![RegisterOCX](/img/in-post/20180525/registerocx.png)
 
 
 >生成AxDll
 
 打开Visual Studio 2012 命令提示，例如我的在：C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Microsoft Visual Studio 2012\Visual Studio Tools\目录下，使用aximp.exe实用工具生成2个dll文件，其中一个是Ax开头的dll文件，在后续流程中使用此dll工具引用到类库中。
 
-！[AxImp](/img/in-post/20180525/aximp.png)
+![AxImp](/img/in-post/20180525/aximp.png)
 
 >添加引用
 
 在Visual Studio 2012中创建C#类库项目，添加上一步生成的Ax开头的dll引用。
 
-！[AddAxDll](/img/in-post/20180525/addaxdll.png)
+![AddAxDll](/img/in-post/20180525/addaxdll.png)
 
 在类库中调用Dll中的方法。
 <pre><code>
@@ -60,7 +60,7 @@ tags:
             return _tcc.Open(sPort, iBPS);
         }
 	......
-</pre></code>
+</code></pre>
 
 >调用类库
 
@@ -92,13 +92,13 @@ tags:
                     break;
                 case "2":
 			......
-</pre></code>
+</code></pre>
 
 >异常问题解决
 
 好了，运行。这个时候可能会看到一个异常。如下图：
 
-！[InvalidActiveXException](/img/in-post/20180525/invalidativexexception.png)
+![InvalidActiveXException](/img/in-post/20180525/invalidativexexception.png)
 
 这个问题在[C#中引用第三方ocx控件引发的问题以及解决办法](https://blog.csdn.net/minjunyu/article/details/5627908)中已经给出了Winform中的解决方法，但并没有提及到类库中的解决方法。
 
@@ -131,6 +131,6 @@ tags:
             return _tcc.Open(sPort, iBPS);
         }
 	......
-</pre></code>
+</code></pre>
 
 希望可以有所帮助！
