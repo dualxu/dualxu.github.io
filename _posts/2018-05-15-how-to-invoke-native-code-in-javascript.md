@@ -24,8 +24,9 @@ tags:
 
 >开发环境：
 
-*Windows 10
-*Visual Studio 2017
+- Windows 10
+- Visual Studio 2017
+- C#
 
 >具体步骤
 
