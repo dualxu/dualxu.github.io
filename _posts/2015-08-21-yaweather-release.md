@@ -41,10 +41,10 @@ ScreenShots:
 ---
 ![YAWeather4](/img/in-post/20130909yaweather4.png)
 ---
-![YAWeather5](/assets/images/20130909yaweather5.png)
+![YAWeather5](/img/in-post/20130909yaweather5.png)
 ---
-![YAWeather6](/assets/images/20130909yaweather6.png)
+![YAWeather6](/img/in-post/20130909yaweather6.png)
 ---
-![YAWeather7](/assets/images/20130909yaweather7.png)
+![YAWeather7](/img/in-post/20130909yaweather7.png)
 ---
-![YAWeather8](/assets/images/20130909yaweather8.png)
+![YAWeather8](/img/in-post/20130909yaweather8.png)

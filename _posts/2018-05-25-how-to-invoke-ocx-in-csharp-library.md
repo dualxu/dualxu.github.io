@@ -1,10 +1,10 @@
 ---
 layout:       post
-title:        "如何在C#类库中调用OCX控件"
-subtitle:     "解决调用时InvalidActiveXStateException的异常"
+title:        "如何在C#类库中调用OCX控件及解决InvalidActiveXStateException异常"
+subtitle:     "解决调用时InvalidActiveXStateException异常"
 date:         2018-05-25 11:51:42
 author:       "Devdog"
-header-img:   "img/post-bg-rwd.jpg"
+header-img:   "img/post-bg-geek.jpg"
 header-mask:  0.3
 catalog:      windows
 multilingual: false
@@ -14,8 +14,9 @@ tags:
 ---
 
 
-关于在C#中调用OCX控件这里有个很好的例子[C#调用OCX控件的常用方法](http://developer.huawei.com/ict/forum/thread-21687.html),我这里具体描述下我这里的方式。
-环境：Windows 10，Visual Studio 2012，.Net Framework 4.5
+关于在C#中调用OCX控件这里有个很好的例子[C#调用OCX控件的常用方法](http://developer.huawei.com/ict/forum/thread-21687.html),结合我实际开发中碰到的问题，我这里总结下并具体描述下我这里的解决方式。
+
+开发环境：Windows 10，Visual Studio 2012，.Net Framework 4.5
 
 >注册OCX控件
 

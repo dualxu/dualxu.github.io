@@ -28,7 +28,7 @@ tags:
 ![Maibu4](/img/in-post/20170302-arduino-maibu4.jpg)
 ![Maibu5](/img/in-post/20170302-arduino-maibu5.jpg)
 
-已同步到微博? ?http://weibo.com/dabaoxu?from=feed&loc=nickname&is_all=1
+已同步到[微博](http://weibo.com/dabaoxu?from=feed&loc=nickname&is_all=1)
 后续有机会我还会继续使用麦步手表做些好玩的东西，还有表盘或应用。
 完毕！欢迎吐槽，或者点个赞，谢谢！
 
