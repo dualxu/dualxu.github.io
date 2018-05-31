@@ -16,7 +16,7 @@ tags:
 
 >需求
 
-最近我需要将蓝牙iBeacon上的数据获取出来，然后将对应的JavaScript接口注入到我们应用内的浏览器里，便于合作方在webview页面上调用。Javascript的接口具体细节参考微信上摇一摇业务开发的[H5页面获取设备信息 JS API](https://mp.weixin.qq.com/wiki?t=resource/res_main&id=mp1443448133)。
+最近我需要将蓝牙iBeacon上的数据获取出来，然后将对应的JavaScript所需接口注入到我们应用内的浏览器里，便于合作方在webview页面上调用。Javascript的接口具体细节参考微信上摇一摇业务开发的[H5页面获取设备信息 JS API](https://mp.weixin.qq.com/wiki?t=resource/res_main&id=mp1443448133)。
 
 >实现方式
 
