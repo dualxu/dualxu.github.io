@@ -87,7 +87,19 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "待添加...",
-        href: ""
+        title: "程序员在线工具",
+        href: "http://www.ofmonkey.com/"
+    },
+    {
+        title: "Visual Studio Courses",
+        href: "https://mva.microsoft.com/product-training/visual-studio-courses#!lang=2052"
+    },
+    {
+        title: "AutoIt中文论坛",
+        href: "http://www.autoit3.cn/"
+    },
+    {
+        title: "在线JSON校验格式化工具(Be JSON)",
+        href: "https://www.bejson.com/"
     }
 ]
