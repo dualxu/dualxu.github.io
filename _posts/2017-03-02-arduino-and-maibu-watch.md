@@ -22,11 +22,11 @@ tags:
 
 但是，但是，高潮来的。我没有再弄表盘，但还是用麦步手表做了个事情。我拿到Arduino Uno的板子一块，使用步进电机将麦步手表固定在转子上，模拟步行频率做大约30度的往复运动。利用麦步运动同步在朋友圈秀了一把当日的步数，看图。
 
-![Maibu1](/img/in-post/20170302-arduino-maibu1.jpg)
-![Maibu2](/img/in-post/20170302-arduino-maibu2.jpg)
-![Maibu3](/img/in-post/20170302-arduino-maibu3.jpg)
-![Maibu4](/img/in-post/20170302-arduino-maibu4.jpg)
-![Maibu5](/img/in-post/20170302-arduino-maibu5.jpg)
+![Maibu1](/img/in-post/20170302/20170302-arduino-maibu1.jpg)
+![Maibu2](/img/in-post/20170302/20170302-arduino-maibu2.jpg)
+![Maibu3](/img/in-post/20170302/20170302-arduino-maibu3.jpg)
+![Maibu4](/img/in-post/20170302/20170302-arduino-maibu4.jpg)
+![Maibu5](/img/in-post/20170302/20170302-arduino-maibu5.jpg)
 
 已同步到[微博](http://weibo.com/dabaoxu?from=feed&loc=nickname&is_all=1)
 后续有机会我还会继续使用麦步手表做些好玩的东西，还有表盘或应用。

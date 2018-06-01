@@ -27,4 +27,6 @@ tags:
 
 3.要使用过，确保有交易记录
 
+![Blackberry](/img/in-post/20130928/blackberryphones.jpg)
+
 

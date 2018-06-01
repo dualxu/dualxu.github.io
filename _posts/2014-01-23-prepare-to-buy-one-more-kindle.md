@@ -21,5 +21,6 @@ tags:
 
 ps.感谢邮政速递，居然是除夕午间到手！
 
+![KindlePaperWhite](/img/in-post/20140120/20140120-kindle-paperwhite.jpg)
 
 

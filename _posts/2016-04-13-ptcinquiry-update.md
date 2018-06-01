@@ -101,15 +101,15 @@ PTCInquiry(Public Transportation Card Inquiry Tool,公交卡余额及交易明�
 
 ScreenShot:
 ---
-![PTCInquiry](/img/in-post/20130101ptcinquiry.png)
+![PTCInquiry](/img/in-post/20130101/20130101ptcinquiry.png)
 ---
-![PTCInquiry2](/img/in-post/20130101ptcinquiry2.png)
+![PTCInquiry2](/img/in-post/20130101/20130101ptcinquiry2.png)
 ---
-![PTCInquiry3](/img/in-post/20130101ptcinquiry3.png)
+![PTCInquiry3](/img/in-post/20130101/20130101ptcinquiry3.png)
 ---
-![PTCInquiry4](/img/in-post/20130101ptcinquiry4.png)
+![PTCInquiry4](/img/in-post/20130101/20130101ptcinquiry4.png)
 ---
-![PTCInquiry5](/img/in-post/20130101ptcinquiry5.png)
+![PTCInquiry5](/img/in-post/20130101/20130101ptcinquiry5.png)
 ---
-![PTCInquiry6](/img/in-post/20130101ptcinquiry6.png)
+![PTCInquiry6](/img/in-post/20130101/20130101ptcinquiry6.png)
 

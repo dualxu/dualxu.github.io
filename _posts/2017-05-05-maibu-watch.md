@@ -18,3 +18,4 @@ tags:
 逛这个论坛也有些时候了，大部分时间是看一些案例代码。
 高兴抽中麦步手表一枚，Yeah!
 
+![MaibuWatch](/img/in-post/20160908/20170505-maibu-watch.png)
