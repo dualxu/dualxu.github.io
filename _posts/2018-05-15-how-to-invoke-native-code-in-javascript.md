@@ -39,7 +39,7 @@ tags:
 
 **AllowForWeb**
 
-项目中类SHRFIDBeaconService必须为sealed，并且必须要引用[Windows.Foundation.Metadata.AllowForWeb]中的[AllowForWeb]属性。定义方法GetPlusResult和GetVersion。
+项目中类SHRFIDBeaconService必须为sealed，并且必须要引用[Windows.Foundation.Metadata]中的[AllowForWeb]属性。定义方法GetPlusResult和GetVersion。
 
 <pre><code>
 //This project type is RuntimeComponent(Universal Windows)

@@ -43,12 +43,12 @@ tags:
 #include "AutoItConstants.au3"
 
 ;打开默认浏览器-
-RunWait('"' & @ComSpec & '" /c explorer.exe http://124.72.48.52:8080/mainpage', '', @SW_HIDE)
+RunWait('"' & @ComSpec & '" /c explorer.exe http://1xx.7x.xx8.52:8080/mainpage', '', @SW_HIDE)
 </code></pre>
 
 **删除图片文件**
 
-删除指定保存图片文件夹下的图片，以后截屏图书也是保存在此目录。
+删除指定保存图片文件夹下的图片，以后截屏图片也是保存在此目录。
 <pre><code>
 ;删除Images目录下3个文件
 $myFile = "D:\WorkSpace\...\Images\ImageCapture1.jpg"
@@ -100,7 +100,7 @@ _ScreenCapture_Capture("D:\WorkSpace\...\Images\ImageCapture1.jpg",344,100+100,1
 
 **打开文件夹并拷贝图片文件**
 
-和打开浏览器一样，还是使用RunWait打开一个路径，直接打开文件夹。在文件夹中点击，然后通过Send命令模拟送出全选(CTRL+A)和拷贝(CTRL+C)快捷键，拷贝至系统剪贴板。
+和打开浏览器一样，还是使用RunWait打开一个路径，直接打开文件夹。在文件夹中点击，然后通过Send命令模拟送出全选(CTRL+A)和拷贝(CTRL+C)快捷键，选中所有图片并拷贝至系统剪贴板。
 <pre><code>
 ;打开Imges文件夹，选中并拷贝3个图片文件
 RunWait('"' & @ComSpec & '" /c explorer.exe D:\WorkSpace\...\Images', '', @SW_HIDE)
@@ -113,17 +113,17 @@ $pos = WinGetPos($handle);
 MouseMove($pos[0]+657,$pos[1]+556,3);
 MouseClick("");
 Sleep(1000);
-;
+;CTRL+A
 Send("^a")
 Sleep(1000);
-;
+;CTRL+C
 Send("^c")
 Sleep(1000);
 </code></pre>
 
 **打开微信群**
 
-微信已经打开，WinActivate等待微信窗口激活，通过WinGetPos获取该窗口的位置，然后鼠标定位到搜索框，Send送出要搜索的微信群名称，然后点击第一个搜索结果的位置，即打开该微信群。鼠标定位到该微信群聊天窗口，点击。
+微信已经打开，WinActivate等待微信窗口激活，通过WinGetPos获取该窗口的位置，然后鼠标定位到搜索框，Send送出要搜索的微信群名称，再点击第一个搜索结果的位置，即打开该微信群。鼠标定位到该微信群聊天窗口，点击。
 <pre><code>
 ;微信上搜索并点开相应微信群
 $handle = WinGetHandle("[CLASS:WeChatMainWndForPC]", "");
@@ -148,8 +148,9 @@ Sleep(1000);
 
 **粘贴图片文件到聊天窗口，发送**
 
-通过Send命令模拟送出粘贴(CTRL+V)快捷键，将前序系统剪贴板上的三个图片文件粘贴到微信群聊天窗口，然后送出Enter键，发送以上图片文件。
+当前焦点在上述微信群聊天窗口，通过Send命令模拟送出粘贴(CTRL+V)快捷键，将前序系统剪贴板上的三个图片文件粘贴到微信群聊天窗口，然后送出Enter键，即发送以上图片文件。
 <pre><code>
+;CTRL+V
 Send("^v");
 Sleep(1000)
 ;点发送，相当于键盘按Enter;
