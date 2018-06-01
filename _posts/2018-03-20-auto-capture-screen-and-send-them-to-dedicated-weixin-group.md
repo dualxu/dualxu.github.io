@@ -2,9 +2,9 @@
 layout:       post
 title:        "利用AutoIt脚本自动发送浏览器页面截屏图片到微信群"
 subtitle:     "AutoIt脚本的威力"
-date:         2018-03-20 19:55:37
+date:         2018-03-21 19:55:37
 author:       "Devdog"
-header-img:   "img/post-bg-geek.jpg"
+header-img:   "img/in-post/post-bg/post-bg-random21.jpg"
 header-mask:  0.3
 catalog:      windows
 multilingual: false

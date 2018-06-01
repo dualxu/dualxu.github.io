@@ -4,7 +4,7 @@ title:        "蓝牙信标:基于Apple iBeacon的信息推送"
 subtitle:     "时髦的微信摇一摇周边"
 date:         2018-05-20 20:35:22
 author:       "Devdog"
-header-img:   "img/post-bg-geek.jpg"
+header-img:   "img/in-post/post-bg/post-bg-random20.jpg"
 header-mask:  0.3
 catalog:      windows
 multilingual: false

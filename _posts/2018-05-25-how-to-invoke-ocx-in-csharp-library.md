@@ -4,7 +4,7 @@ title:        "如何在C#类库中调用OCX控件及解决InvalidActiveXStateEx
 subtitle:     "解决调用时InvalidActiveXStateException异常"
 date:         2018-05-25 11:51:42
 author:       "Devdog"
-header-img:   "img/post-bg-geek.jpg"
+header-img:   "img/in-post/post-bg/post-bg-random25.jpg"
 header-mask:  0.3
 catalog:      windows
 multilingual: false
