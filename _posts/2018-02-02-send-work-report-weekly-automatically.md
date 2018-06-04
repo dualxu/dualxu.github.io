@@ -19,16 +19,16 @@ tags:
 
 因此我决定写个自动发送周报的小工具，自动发送周报，减轻这个上面花费的时间。
 
-###开发环境###
+### 开发环境
 - Excel 2013
 - Visual Studio 2012
 
-###实现方式###
+### 实现方式
 
 - 使用VBA在Excel中定义一个方法，每次周报excel文件打开时都检测下是否以当前周五日期命名的sheet页面，如果没有则从周报模板sheet上拷贝一个新sheet，并以当前周五日期命名。每天工作完毕或周五前都可以填写该周报上工作内容。
 - 使用Visual Studio 2012 创建一个windows服务，定时将以上周报excel文件以附件形式通过邮件发送到指定电子邮箱。
 
-####VBA之于周报Excel
+### VBA之于周报Excel
 
 周报Excel中先生成一个周报模板sheet，作为Sheet(1)，并另存为“Excel启用宏的工作簿(*.xlsm)”。打开周报Excel，选择“开发工具”菜单（这个菜单默认不打开，可以在文件-高级-自定义功能区-主选项卡里面添加进来）下”查看代码“，选择“ThisWorkBook”，添加Workbook_Open方法，这个将在Excel文件打开时执行。
 
@@ -100,7 +100,8 @@ public MainService()
         }
 </code></pre>
 
-###Timer###
+###Timer
+
 检查时间是否满足，我设定的是周五17:00以后到周日凌晨。时间满足的话则发送邮件。还设置了一个发送标记，这个发送标记将更新到本地配置文件，如果已经发送则不会再次发送邮件。
 <pre><code>
 private void timer1_Elapsed(object sender, System.Timers.ElapsedEventArgs e)
@@ -139,7 +140,7 @@ private void timer1_Elapsed(object sender, System.Timers.ElapsedEventArgs e)
         }
 </code></pre>
 
-###发送邮件###
+###发送邮件
 
 <pre><code>
 private bool sendmail()
@@ -195,7 +196,8 @@ private bool sendmail()
         }
 </code></pre>
 
-###注册和注销Windows服务###
+###注册和注销Windows服务
+
 使用InstallUtil.exe实用工具（需要使用管理员权限），一般写成批处理文件备用。
 
 - 注册Windows服务
@@ -215,5 +217,6 @@ pause
 pause
 </code></pre>
 
-###Enjoy###
+###Enjoy
+
 注册服务以后，我只要在每周五前不定时更新周报Excel文件就好了，不用担心错过发送周报的时间。
