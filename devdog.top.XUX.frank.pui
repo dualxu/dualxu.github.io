@@ -1,31 +1,27 @@
 [Open Files]
 Active File Display Mode=3
-Active File Index=2
-Open File Line0=588
-Open File Line1=12
-Open File Line2=2298
-Open File Pos0=684
-Open File Pos1=644
-Open File Pos2=5294
-Open File Window Pos0=0,1,-1,-1,-8,-31,52,52,813,399
-Open File Window Pos1=0,1,-1,-1,-8,-31,130,130,994,452
-Open File Window Pos2=2,3,-1,-1,-8,-31,0,0,884,322
-Open File0=D:\WorkSpace\Work2018\DevSpec\github.io\dualxu.github.io\_posts\2013-05-15-hello-world.md
-Open File1=D:\WorkSpace\Work2018\DevSpec\github.io\dualxu.github.io\index.html
-Open File2=D:\WorkSpace\Work2018\DevSpec\github.io\dualxu.github.io\_config.yml
-Open File3=
+Active File Index=0
+Open File Line0=684
+Open File Line1=2
+Open File Pos0=1032
+Open File Pos1=2
+Open File Window Pos0=2,3,-1,-1,-8,-31,104,104,866,331
+Open File Window Pos1=0,1,-1,-1,-8,-31,156,156,866,487
+Open File0=D:\WorkSpace\Work2018\DevSpec\github.io\dualxu.github.io\_posts\2018-05-25-how-to-invoke-ocx-in-csharp-library.md
+Open File1=D:\WorkSpace\Work2018\DevSpec\github.io\dualxu.github.io\_posts\2018-05-30-a-daydream-about-ceng-sheng.md
+Open File2=
 Remember Files=1
 
 [Project Information]
 Project Start=E20705000500190010001600380000006A
-Working Time=31112
+Working Time=31404
 
 [Folders]
 .\=1
 .\ - _includes=1
-.\ - _includes - about=1
 .\ - _includes - posts - 2017-07-12-upgrading-eleme-to-pwa=1
 .\ - _layouts=1
 .\ - _posts=1
 .\ - portfolio=1
 .\ - pwa - icons=1
+.\ - _includes - posts=1

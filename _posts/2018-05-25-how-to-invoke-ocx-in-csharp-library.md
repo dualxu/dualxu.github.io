@@ -16,7 +16,10 @@ tags:
 
 关于在C#中调用OCX控件这里有个很好的例子[C#调用OCX控件的常用方法](http://developer.huawei.com/ict/forum/thread-21687.html),结合最近我实际开发中碰到的问题，我总结下并具体描述下我这里的解决方式。
 
-开发环境：Windows 10，Visual Studio 2012，.Net Framework 4.5
+开发环境：
+- Windows 10
+- Visual Studio 2012
+- .Net Framework 4.5
 
 >注册OCX控件
 
