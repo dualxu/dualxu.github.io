@@ -47,7 +47,7 @@ kramdown:
 
 
 # Comments
-comments:true
+#comments:true
 
 # Disqus settings
 disqus_username: devdog-top
