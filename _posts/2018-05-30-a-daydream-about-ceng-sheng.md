@@ -8,6 +8,7 @@ header-img:   "img/in-post/post-bg/post-bg-random30.jpg"
 header-mask:  0.3
 catalog:      windows
 multilingual: false
+comments:true
 tags:
     - 沉思遐想
 ---
