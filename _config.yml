@@ -46,6 +46,8 @@ kramdown:
   input: GFM                            # use Github Flavored Markdown !important
 
 
+# Comments
+comments:true
 
 # Disqus settings
 disqus_username: devdog-top

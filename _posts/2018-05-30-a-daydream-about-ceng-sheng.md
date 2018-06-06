@@ -1,6 +1,5 @@
 ---
 layout:       post
-comments:     true
 title:        "岑参诗的遐想"
 subtitle:     "悲催的边塞诗人"
 date:         2018-05-30 22:15:52
