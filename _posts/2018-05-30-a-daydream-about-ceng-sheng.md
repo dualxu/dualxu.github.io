@@ -1,5 +1,6 @@
 ---
 layout:       post
+comments:     true
 title:        "岑参诗的遐想"
 subtitle:     "悲催的边塞诗人"
 date:         2018-05-30 22:15:52
@@ -8,7 +9,6 @@ header-img:   "img/in-post/post-bg/post-bg-random30.jpg"
 header-mask:  0.3
 catalog:      windows
 multilingual: false
-comments:true
 tags:
     - 沉思遐想
 ---
