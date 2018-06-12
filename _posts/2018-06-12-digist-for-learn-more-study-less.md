@@ -12,11 +12,11 @@ tags:
     - 学习
 ---
 
-继上次看了知乎上的几个关于如何长时间高效学习的主题以后，我了解到有个加拿大人[Scott Young](https://www.scotthyoung.com/)居然只花了四个月完成了MIT的33门专业课程。我立马早来电子书(当然中文版)，导入Kindle，花了几个早晚看完。
+继上次看了知乎上的几个关于如何长时间高效学习的主题回答以后，我了解到有个加拿大人[Scott Young](https://www.scotthyoung.com/)居然只花了四个月完成了MIT的33门专业课程，然后将自己的高效学习方法写成了一本书，名字叫“Learn More Study Less”。我立马找来电子书(当然中文版)，导入Kindle，花了几个早晚看完。
 
-这里是有个知乎上的提问和回答[如何评价 Scott H.Young 一年内自学完 MIT 计算机专业的全部 33 门课程？](https://www.zhihu.com/question/20571226)比较精彩可以看看。
+这儿有个知乎上的提问和回答[如何评价 Scott H.Young 一年内自学完 MIT 计算机专业的全部 33 门课程？](https://www.zhihu.com/question/20571226)，比较精彩可以看看。
 
-关于Scott Young，他自己的[博客网站](https://www.scotthyoung.com/blog/myprojects/mit-challenge-2/)上的介绍，了解下：
+关于Scott Young，他在自己的[博客网站](https://www.scotthyoung.com/blog/myprojects/mit-challenge-2/)上的介绍，了解下：
 >I'm a writer, programmer, traveler and avid reader of interesting things. For the last ten years I've been experimenting to find out how to learn and think better. I don't promise I have all the answers, just a place to start.
 
 以下是读书摘要，其实还不如说是这本书最后的总结来得更恰当一点。有些地方有删减，或者我自己的理解。
