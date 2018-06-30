@@ -15,6 +15,8 @@ tags:
 
 
 
+
+
 ## UPDATE语句的语法错误问题 ##
 
 昨天项目上由于时间迫近，想到一个临时解决方案。使用Access数据库保存和获取本地离线图书信息，晚上碰到一个奇怪的问题百思不得其解。当用update语句时，发生“UPDATE 语句的语法错误”的异常，但看到半夜也没发现语法有啥不对。
@@ -24,7 +26,6 @@ strSQL = string.Format("UPDATE t_bookinfo_tjxh SET count = count + 1"
                                         + " WHERE isbn = '" + listv.isbn + "'"
                                         );
 </code></pre>
-
 
 ## UPDATE语法 ##
 
@@ -37,26 +38,25 @@ UPDATE table SET newvalue WHERE criteria;
 The UPDATE statement has these parts:
 
 - table	The name of the table containing the data you want to modify.
-- newvalue	An expression that determines the value to be inserted into a particular field in the updated records.
-- criteria	An expression that determines which records will be updated. Only records that satisfy the expression are updated.
+	 newvalue	An expression that determines the value to be inserted into a particular field in the updated records.
+	 criteria	An expression that determines which records will be updated. Only records that satisfy the expression are updated.
 
 举一个栗子:
 <pre><code>
 UPDATE Orders
-  
+
 SET OrderAmount = OrderAmount * 1.1,
-  
+
 Freight = Freight * 1.03
-  
+
 WHERE ShipCountry = 'UK';
 </code></pre>
 
 我的update语句是不是没毛病？
 
-
 ## 解决方案 ##
 
-一通百度/Google之后，原来我定义表格式时将关键字count定义为了字段，这个字段在update时将会发生语法错误的异常，解决办法是将关键字用[]扩起来。
+一通百度/Google之后，来了多通以后，实在快要崩溃的时候，突然明白：原来我定义数据库表结构时某一个字段直接使用了关键字count，这个字段在update时将会发生语法错误的异常，解决办法是将关键字用转义号[]扩起来。
 
 Access和MS SQL一样，对关键字使用"["和"]"来进行转义，如果我们在数据库字段定义中使用了关键字，则需要使用转义符来进行转义，比如[user].[password]等等。不过，强烈建议在数据库设计时尽量避免使用关键字作为字段名。
 
@@ -66,9 +66,6 @@ strSQL = string.Format("UPDATE t_bookinfo_tjxh SET [count] = [count] + 1"
                                         + " WHERE isbn = '" + listv.isbn + "'"
                                         );
 </code></pre>
-
-
-
 
 ## 关键字 ##
 
@@ -183,7 +180,7 @@ strSQL = string.Format("UPDATE t_bookinfo_tjxh SET [count] = [count] + 1"
 	-     Like
 	-     LOGICAL, LOGICAL1
 	-     LONG, LONGBINARY, LONGTEXT
-               
+
 - M
 	-     Macro
 	-     Match
