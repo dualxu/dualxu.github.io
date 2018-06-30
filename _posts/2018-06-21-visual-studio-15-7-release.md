@@ -20,6 +20,9 @@ tags:
 
 ----------
 
+微软于2018-6-18放出了Visual Studio 15.7的更新！
+
+以下为更新页上展示的更新内容：
 
 
 - We added support to change installation locations.
