@@ -103,5 +103,9 @@ friends: [
     {
         title: "在线JSON校验格式化工具(Be JSON)",
         href: "https://www.bejson.com/"
+    },
+    {
+    		title:"林德熙,关于UWP等Win10开发",
+    		href: "https://blog.csdn.net/lindexi_gd"
     }
 ]
