@@ -25,11 +25,21 @@ tags:
 
 **学习资源**
 
-[微信官方开放文档]: https://developers.weixin.qq.com/miniprogram/dev/framework/
-[微信小程序设计指南]: https://developers.weixin.qq.com/miniprogram/design/
-[微信公众平台]: https://mp.weixin.qq.com/
+官方开放文档 
+
+https://developers.weixin.qq.com/miniprogram/dev/framework/
 
 
+
+设计指南
+
+https://developers.weixin.qq.com/miniprogram/design/
+
+
+
+公众平台
+
+https://mp.weixin.qq.com/
 
 
 
