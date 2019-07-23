@@ -11,7 +11,6 @@ multilingual: false
 tags:
     - 小程序
     - 开发
-    - 学习
 ---
 
 
@@ -21,6 +20,24 @@ tags:
 
 
 我也按捺不住想要学习微信小程序的冲动了！
+
+
+
+**学习资源**
+
+[微信官方开放文档]: https://developers.weixin.qq.com/miniprogram/dev/framework/
+[微信小程序设计指南]: https://developers.weixin.qq.com/miniprogram/design/
+[微信公众平台]: https://mp.weixin.qq.com/
+
+
+
+
+
+
+
+
+
+
 
 
 
