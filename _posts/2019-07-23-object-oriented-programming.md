@@ -33,7 +33,7 @@ tags:
 
 
 
-![面向对象葵花宝典 思想、技巧与实践](../img/in-post/20190723/oop_khbd.jpg)
+![面向对象葵花宝典 思想、技巧与实践](/img/in-post/20190723/oop_khbd.jpg)
 
 
 
