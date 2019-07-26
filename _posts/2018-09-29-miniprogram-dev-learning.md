@@ -23,25 +23,25 @@ tags:
 
 
 
-##### **学习资源**
+###### 参考资源
 
-###### 官方开放文档 
+[官方开放文档][1]
 
-https://developers.weixin.qq.com/miniprogram/dev/framework/
+[设计指南][2]
 
-###### 设计指南
+[微信公众平台][3]
 
-https://developers.weixin.qq.com/miniprogram/design/
-
-###### 公众平台
-
-https://mp.weixin.qq.com/
+[1]:https://developers.weixin.qq.com/miniprogram/dev/framework/
+[2]:https://developers.weixin.qq.com/miniprogram/design/
+[3]:https://mp.weixin.qq.com/
 
 
 
 以下是几个练手的截屏。。。。。。
 
 ##### 吃货健康助手
+
+本小程序主要通过拍照菜品或本地菜品照片自动识别为某菜品，并给出菜品热量值（千卡路里）供参考，也可以将当前菜品照片定位到地图，供以后查看自己的美食地图。菜品识别部分使用百度云菜品识别接口，唯一耗费精力的地方在于照片数据转化为base64编码数据比较坑。。。。。。
 
 ![吃货健康助手1](/img/in-post/20180929/微信图片_20190726172859.jpg)
 
@@ -51,7 +51,7 @@ https://mp.weixin.qq.com/
 
 ##### 花园生活家
 
-
+本小程序主要为模仿美团下单界面，为一个朋友做的装饰展示的页面。
 
 ![花园生活家1](/img/in-post/20180929/微信图片_20190726172938.jpg)
 
@@ -63,7 +63,7 @@ https://mp.weixin.qq.com/
 
 ##### 中图分类查询
 
-
+这个是中图分类法的查询程序，可以查询中图分类法第五版的22个大类及每个细分类别，也可以按照关键字查询。
 
 ![中图分类查询1](/img/in-post/20180929/微信图片_20190726172958.jpg)
 
@@ -71,11 +71,9 @@ https://mp.weixin.qq.com/
 
 
 
-
-
 ##### 智能卡速查工具
 
-
+智能卡开发及EMV中使用的状态字查询，超级简单的，第一次用来练手的。
 
 ![智能卡速查工具1](/img/in-post/20180929/微信图片_20190726173010.jpg)
 
