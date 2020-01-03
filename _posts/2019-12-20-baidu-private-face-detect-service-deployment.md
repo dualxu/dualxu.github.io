@@ -14,7 +14,7 @@ tags:
 
 
 
-![img](https://mmbiz.qpic.cn/mmbiz_png/5ibLzGFa55cqLoJLA0re9zia780EicU45NLwT3BibQRySaicQsTRNXyp1UNiapUeGFGs8c8ZJJ3AQP5U09MhTJEHg3lw/640?wx_fmt=png)
+![img](../img/in-post/20200103/微信图片_20200103100459.jpg)
 
 
 
@@ -32,7 +32,7 @@ tags:
 
 
 
-![img](https://mmbiz.qpic.cn/mmbiz_png/5ibLzGFa55cqLoJLA0re9zia780EicU45NLYOjF00POKQIcmzXCwYPG0v9j0VBtgqd6z0hiazfclF59bCrxvVqRvtg/640?wx_fmt=png)
+![img](../img/in-post/20200103/微信图片_20200103100541.jpg)
 
 百度推荐服务器配置
 
@@ -58,7 +58,7 @@ Nvidia Tesla P4 GPU*1无导轨
 
 除了硬件服务器需要客户自备以外，百度按照每个GPU单独授权，以下为针对不同GPU和性能规格的授权价格。可以先申请最多3个月的免费测试授权，测试完成后再获取正式授权。
 
-![img](https://mmbiz.qpic.cn/mmbiz_png/5ibLzGFa55cqLoJLA0re9zia780EicU45NLfzVibGPbIyVtGM2yfeFFLPIwDw3dnx79U0xrvwsyZfE2P53aAZPVgtA/640?wx_fmt=png)
+![img](../img/in-post/20200103/微信图片_20200103100559.jpg)
 
 
 
@@ -87,15 +87,15 @@ Nvidia Tesla P4 GPU*1无导轨
 
 服务器拿到以后，首先需要申请部署包。在部署包申请时，可以看到指纹提取工具下载地址，先在服务器上按要求提取指纹文件，然后加入申请表格中。
 
-![img](https://mmbiz.qpic.cn/mmbiz_png/5ibLzGFa55cqLoJLA0re9zia780EicU45NL6UWdN5LssKciaBG5dJVCuRMm8y9ib79rDJYJSL8TDlL16Fk7rQoAZkPQ/640?wx_fmt=png)
+![img](../img/in-post/20200103/微信图片_20200103100611.jpg)
 
 
 
-![img](https://mmbiz.qpic.cn/mmbiz_png/5ibLzGFa55cqLoJLA0re9zia780EicU45NLYrtznHG0shDBgGIicqLozc6pQbaWvHiaRjrZNQ1tNKMgibvQrSwcbOeBA/640?wx_fmt=png)
+![img](../img/in-post/20200103/微信图片_20200103100617.jpg)
 
 
 
-![img](https://mmbiz.qpic.cn/mmbiz_png/5ibLzGFa55cqLoJLA0re9zia780EicU45NLFygM5oU9Dg7kzovv94Y4uIsVB1YAoJpR4yE52FZicqS1zmFPYpzvrVg/640?wx_fmt=png)
+![img](../img/in-post/20200103/微信图片_20200103100632.jpg)
 
 指纹提取工具上传到服务器，然后提取指纹。
 
@@ -134,7 +134,7 @@ get machine finger end
 
 
 
-![img](https://mmbiz.qpic.cn/mmbiz_png/5ibLzGFa55cqLoJLA0re9zia780EicU45NLbSicTAuksJ6JZlbstBYqJWKSOWI7iaV7oMTLnAB9DwLSU1bSGte1wibicw/640?wx_fmt=png)
+![img](../img/in-post/20200103/微信图片_20200103100643.jpg)
 
 申请通过以后，下载部署包，并上传至服务器。
 
@@ -273,15 +273,15 @@ success
 
 
 
-![img](https://mmbiz.qpic.cn/mmbiz_png/5ibLzGFa55codG7PHdLm8ZJfMIyIYR2nKSJYnY6jEOGGDp9KteG5HXDaDRTe53iaeKKNoYwVicWQZQlatSbjLrGRA/640?wx_fmt=png)
+![img](../img/in-post/20200103/微信图片_20200103100723.jpg)
 
 
 
-![img](https://mmbiz.qpic.cn/mmbiz_png/5ibLzGFa55codG7PHdLm8ZJfMIyIYR2nKIoIBcYFJ33jgLdnmvOqKeyVEGcTGXqxNypQOBiaqK3x3bmfeGdJl1OQ/640?wx_fmt=png)
+![img](../img/in-post/20200103/微信图片_20200103100730.jpg)
 
 
 
-![img](https://mmbiz.qpic.cn/mmbiz_png/5ibLzGFa55codG7PHdLm8ZJfMIyIYR2nKd1OrsPibMicPia4dMpPUgY7icDAeB9YSuv88lI6JeeCkYTPgic5827FMWCA/640?wx_fmt=png)
+![img](../img/in-post/20200103/微信图片_20200103100734.jpg)
 
 
 
