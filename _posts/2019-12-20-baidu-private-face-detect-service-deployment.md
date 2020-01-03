@@ -14,7 +14,7 @@ tags:
 
 
 
-![img](img/in-post/20200103/微信图片_20200103100459.jpg)
+![img](/img/in-post/20200103/微信图片_20200103100459.jpg)
 
 
 
@@ -32,7 +32,7 @@ tags:
 
 
 
-![img](img/in-post/20200103/微信图片_20200103100541.jpg)
+![img](/img/in-post/20200103/微信图片_20200103100541.jpg)
 
 百度推荐服务器配置
 
@@ -58,7 +58,7 @@ Nvidia Tesla P4 GPU*1无导轨
 
 除了硬件服务器需要客户自备以外，百度按照每个GPU单独授权，以下为针对不同GPU和性能规格的授权价格。可以先申请最多3个月的免费测试授权，测试完成后再获取正式授权。
 
-![img](img/in-post/20200103/微信图片_20200103100559.jpg)
+![img](/img/in-post/20200103/微信图片_20200103100559.jpg)
 
 
 
@@ -87,15 +87,15 @@ Nvidia Tesla P4 GPU*1无导轨
 
 服务器拿到以后，首先需要申请部署包。在部署包申请时，可以看到指纹提取工具下载地址，先在服务器上按要求提取指纹文件，然后加入申请表格中。
 
-![img](img/in-post/20200103/微信图片_20200103100611.jpg)
+![img](/img/in-post/20200103/微信图片_20200103100611.jpg)
 
 
 
-![img](img/in-post/20200103/微信图片_20200103100617.jpg)
+![img](/img/in-post/20200103/微信图片_20200103100617.jpg)
 
 
 
-![img](img/in-post/20200103/微信图片_20200103100632.jpg)
+![img](/img/in-post/20200103/微信图片_20200103100632.jpg)
 
 指纹提取工具上传到服务器，然后提取指纹。
 
@@ -134,7 +134,7 @@ get machine finger end
 
 
 
-![img](img/in-post/20200103/微信图片_20200103100643.jpg)
+![img](/img/in-post/20200103/微信图片_20200103100643.jpg)
 
 申请通过以后，下载部署包，并上传至服务器。
 
@@ -147,12 +147,50 @@ get machine finger end
 部署时有个环境检查工具来确保没有问题，最后会有个检查结果：pass 或者 fail。
 
 ```
-______         _      _           _____                    ______               _| ___ \       (_)    | |         |  ___|                   | ___ \             | || |_/ /  __ _  _   __| | _   _   | |__    __ _  ___  _   _ | |_/ /  __ _   ___ | | __| ___ \ / _` || | / _` || | | |  |  __|  / _` |/ __|| | | ||  __/  / _` | / __|| |/ /| |_/ /| (_| || || (_| || |_| |  | |___ | (_| |\__ \| |_| || |    | (_| || (__ |   <\____/  \__,_||_| \__,_| \__,_|  \____/  \__,_||___/ \__, |\_|     \__,_| \___||_|\_\                                                      __/ |                                                     |___/--------------------------------------------------------------------------------------[default] environment checking start >>>>>>>>>>>>>>>>>>>>>>>>>>service_command checking: ... pass
+______         _      _           _____                    ______               _| ___ \       (_)    | |         |  ___|                   | ___ \             | || |_/ /  __ _  _   __| | _   _   | |__    __ _  ___  _   _ | |_/ /  __ _   ___ | | __| ___ \ / _` || | / _` || | | |  |  __|  / _` |/ __|| | | ||  __/  / _` | / __|| |/ /| |_/ /| (_| || || (_| || |_| |  | |___ | (_| |\__ \| |_| || |    | (_| || (__ |   <\____/  \__,_||_| \__,_| \__,_|  \____/  \__,_||___/ \__, |\_|     \__,_| \___||_|\_\                                                      __/ |                                                     |___/--------------------------------------------------------------------------------------
+[default] environment checking start 
+>>>>>>>>>>>>>service_command checking: ... pass
 >>>>>>>>>>>>>cpu_digit checking: ... pass( claim is .*x86_64.*, real is x86_64 )
->>>>>>>>>>>>>>>>>>>>>>>>>>glibc_version checking: ... pass( claim is 2.14, real is 2.17 )
+>>>>>>>>>>>>>glibc_version checking: ... pass( claim is 2.14, real is 2.17 )
 >>>>>>>>>>>>>python_version checking: ... pass( claim is 2.7, real is 2.7.5 )
->>>>>>>>>>>>>>>>>>>>>>>>>>glibcxx_version checking: ... pass( claim is 3.4.19, real is 3.4.19 )>>>>>>>>>>>>>disk_home checking: ... pass( claim is >=512 GB, real is 37888 GB )>>>>>>>>>>>>>cpu_model checking: ... pass( claim is .*(Intel|AMD).*, real is 56  Intel(R) Xeon(R) Gold 5117 CPU @ 2.00GHz )>>>>>>>>>>>>>release_version checking: ... pass( centos 7.7.1908 )>>>>>>>>>>>>>gcc_version checking: ... pass( claim is 4.8.2, real is 4.8.5 )>>>>>>>>>>>>>root checking: ... pass>>>>>>>>>>>>>network checking: ... pass( Get IP informations: em4:192.168.0.74/24 virbr0:192.168.122.1/24 docker0:172.17.0.1/16  )[c-offline-security-server] environment checking start >>>>>>>>>>>>>>>>>>>>>>>>>>nic checking: ... pass( Find physics network interface card: p2p1 em4 p2p2 em3 em2 em1  )>>>>>>>>>>>>>machine checking: ... pass>>>>>>>>>>>>>instruction_set checking: ... pass>>>>>>>>>>>>>memory checking: ... pass( claim is >=8 GB, real is 251 GB )>>>>>>>>>>>>>port checking: ...              port 8443 cheking... not in use             port 7091 cheking... not in use             port 7092 cheking... not in use             pass[face-server] environment checking start >>>>>>>>>>>>>>>>>>>>>>>>>>disk_image checking: ... pass( claim is >=100 GB, real is 37888 GB )>>>>>>>>>>>>>selinux checking: ... pass>>>>>>>>>>>>>memory checking: ... pass( claim is >=32 GB, real is 251 GB )>>>>>>>>>>>>>release_version checking: ... pass( centos 7.7.1908 )>>>>>>>>>>>>>docker_version checking: ... fail( claim is 17.12, real is 1.13.1 )[nvidia] environment checking start >>>>>>>>>>>>>>>>>>>>>>>>>>nvidia_docker_version checking: ... fail( claim is 2.0.2, real is 1.0.1 )>>>>>>>>>>>>>nvidia_memory checking: ... pass( claim is >=6 G, real is 7 G )>>>>>>>>>>>>>nvidia_driver checking: ... fail( claim is 384.66, real is 375.66 )>>>>>>>>>>>>>nvidia_model checking: ... pass( claim is [u'Tesla P40', u'Tesla P4', u'GTX 1070', u'GTX 1080', u'GTX 1080 Ti'], real is Tesla P4 )[docker] environment checking start >>>>>>>>>>>>>>>>>>>>>>>>>>kernel_version checking: ... pass( claim is 3.10, real is 3.10.0 )The conclusion of environment checking is :fail未通过的检查项详情如下：You can use 'pip install prettytable' to use PrettyTable.     模块              检查项            指标要求       实际参数或报错信息       face-server      docker_version                    claim is 17.12, real is 1.13.1     nvidia    nvidia_docker_version                 claim is 2.0.2, real is 1.0.1      nvidia        nvidia_driver                    claim is 384.66, real is 375.66 
-Press any key to quit. Press 'continue' to continue the installation without guarantee of success.
+>>>>>>>>>>>>>glibcxx_version checking: ... pass( claim is 3.4.19, real is 3.4.19 )
+>>>>>>>>>>>>>disk_home checking: ... pass( claim is >=512 GB, real is 37888 GB )
+>>>>>>>>>>>>>cpu_model checking: ... pass( claim is .*(Intel|AMD).*, real is 56  Intel(R) Xeon(R) Gold 5117 CPU @ 2.00GHz )
+>>>>>>>>>>>>>release_version checking: ... pass( centos 7.7.1908 )
+>>>>>>>>>>>>>gcc_version checking: ... pass( claim is 4.8.2, real is 4.8.5 )
+>>>>>>>>>>>>>root checking: ... pass
+>>>>>>>>>>>>>network checking: ... pass( Get IP informations: em4:192.168.0.74/24 virbr0:192.168.122.1/24 docker0:172.17.0.1/16  )
+[c-offline-security-server] environment checking start 
+>>>>>>>>>>>>>nic checking: ... pass( Find physics network interface card: p2p1 em4 p2p2 em3 em2 em1  )
+>>>>>>>>>>>>>machine checking: ... pass
+>>>>>>>>>>>>>instruction_set checking: ... pass
+>>>>>>>>>>>>>memory checking: ... pass( claim is >=8 GB, real is 251 GB )
+>>>>>>>>>>>>>port checking: ...              
+	port 8443 cheking... not in use             
+	port 7091 cheking... not in use             
+	port 7092 cheking... not in use             
+	pass
+[face-server] environment checking start 
+>>>>>>>>>>>>>disk_image checking: ... pass( claim is >=100 GB, real is 37888 GB )
+>>>>>>>>>>>>>selinux checking: ... pass
+>>>>>>>>>>>>>memory checking: ... pass( claim is >=32 GB, real is 251 GB )
+>>>>>>>>>>>>>release_version checking: ... pass( centos 7.7.1908 )
+>>>>>>>>>>>>>docker_version checking: ... fail( claim is 17.12, real is 1.13.1 )
+[nvidia] environment checking start 
+>>>>>>>>>>>>>nvidia_docker_version checking: ... fail( claim is 2.0.2, real is 1.0.1 )
+>>>>>>>>>>>>>nvidia_memory checking: ... pass( claim is >=6 G, real is 7 G )
+>>>>>>>>>>>>>nvidia_driver checking: ... fail( claim is 384.66, real is 375.66 )
+>>>>>>>>>>>>>nvidia_model checking: ... pass( claim is [u'Tesla P40', u'Tesla P4', u'GTX 1070', u'GTX 1080', u'GTX 1080 Ti'], real is Tesla P4 )
+[docker] environment checking start 
+>>>>>>>>>>>>>kernel_version checking: ... pass( claim is 3.10, real is 3.10.0 )
+The conclusion of environment checking is :fail
+未通过的检查项详情如下：You can use 'pip install prettytable' to use PrettyTable.     
+模块              检查项            指标要求       实际参数或报错信息       
+face-server      docker_version                    claim is 17.12, real is 1.13.1     
+nvidia    nvidia_docker_version                 claim is 2.0.2, real is 1.0.1      
+nvidia        nvidia_driver                    claim is 384.66, real is 375.66 
+Press any key to quit. 
+Press 'continue' to continue the installation without guarantee of success.
 ```
 
 总结下来就是：
@@ -202,7 +240,51 @@ Press any key to quit. Press 'continue' to continue the installation without gua
 
 
 ```
-# python install.py inall______         _      _           _____                    ______               _| ___ \       (_)    | |         |  ___|                   | ___ \             | || |_/ /  __ _  _   __| | _   _   | |__    __ _  ___  _   _ | |_/ /  __ _   ___ | | __| ___ \ / _` || | / _` || | | |  |  __|  / _` |/ __|| | | ||  __/  / _` | / __|| |/ /| |_/ /| (_| || || (_| || |_| |  | |___ | (_| |\__ \| |_| || |    | (_| || (__ |   <\____/  \__,_||_| \__,_| \__,_|  \____/  \__,_||___/ \__, |\_|     \__,_| \___||_|\_\                                                      __/ |                                                     |___/--------------------------------------------------------------------------------------2019-12-12 11:37:25,141 - 25322 - install - INFO - start to prepare work directory...2019-12-12 11:37:25,142 - 25322 - install - INFO - install option: inall, user name: baidu2019-12-12 11:37:25,143 - 25322 - install - INFO - start to check python version...2019-12-12 11:37:25,143 - 25322 - install - INFO - start to check current user...2019-12-12 11:37:25,143 - 25322 - install - INFO - start to check integrity of this package...2019-12-12 11:37:25,143 - 25322 - install - INFO - start to prepare docker_time_deal.sh...2019-12-12 11:37:25,143 - 25322 - install - INFO - start to check the environment...[default] environment checking start >>>>>>>>>>>>>>>>>>>>>>>>>>service_command checking: ... pass>>>>>>>>>>>>>cpu_digit checking: ... pass( claim is .*x86_64.*, real is x86_64 )>>>>>>>>>>>>>glibc_version checking: ... pass( claim is 2.14, real is 2.17 )>>>>>>>>>>>>>python_version checking: ... pass( claim is 2.7, real is 2.7.5 )>>>>>>>>>>>>>glibcxx_version checking: ... pass( claim is 3.4.19, real is 3.4.19 )>>>>>>>>>>>>>disk_home checking: ... pass( claim is >=512 GB, real is 37888 GB )>>>>>>>>>>>>>cpu_model checking: ... pass( claim is .*(Intel|AMD).*, real is 56  Intel(R) Xeon(R) Gold 5117 CPU @ 2.00GHz )>>>>>>>>>>>>>release_version checking: ... pass( centos 7.7.1908 )>>>>>>>>>>>>>gcc_version checking: ... pass( claim is 4.8.2, real is 4.8.5 )>>>>>>>>>>>>>root checking: ... pass>>>>>>>>>>>>>network checking: ... pass( Get IP informations: em4:192.168.0.74/24 virbr0:192.168.122.1/24  )[c-offline-security-server] environment checking start >>>>>>>>>>>>>>>>>>>>>>>>>>nic checking: ... pass( Find physics network interface card: em2 em4 p2p2 em3 p2p1 em1  )>>>>>>>>>>>>>machine checking: ... pass>>>>>>>>>>>>>instruction_set checking: ... pass>>>>>>>>>>>>>memory checking: ... pass( claim is >=8 GB, real is 251 GB )>>>>>>>>>>>>>port checking: ...              port 8443 cheking... not in use             port 7091 cheking... not in use             port 7092 cheking... not in use             pass[face-server] environment checking start >>>>>>>>>>>>>>>>>>>>>>>>>>disk_image checking: ... pass( claim is >=100 GB, real is 37888 GB )>>>>>>>>>>>>>selinux checking: ... pass>>>>>>>>>>>>>memory checking: ... pass( claim is >=32 GB, real is 251 GB )>>>>>>>>>>>>>release_version checking: ... pass( centos 7.7.1908 )>>>>>>>>>>>>>docker_version checking: ... pass( docker not installed, it will be installed with service. )[nvidia] environment checking start >>>>>>>>>>>>>>>>>>>>>>>>>>nvidia_docker_version checking: ... pass( nvidia-docker not installed, it will be installed with service. )>>>>>>>>>>>>>nvidia_memory checking: ... pass( claim is >=6 G, real is 7 G )>>>>>>>>>>>>>nvidia_driver checking: ... pass( claim is 384.66, real is 430.40 )>>>>>>>>>>>>>nvidia_model checking: ... pass( claim is [u'Tesla P40', u'Tesla P4', u'GTX 1070', u'GTX 1080', u'GTX 1080 Ti'], real is Tesla P4 )[docker] environment checking start >>>>>>>>>>>>>>>>>>>>>>>>>>kernel_version checking: ... pass( claim is 3.10, real is 3.10.0 )The conclusion of environment checking is :pass
+# python install.py inall
+______         _      _           _____                    ______               _| ___ \       (_)    | |         |  ___|                   | ___ \             | || |_/ /  __ _  _   __| | _   _   | |__    __ _  ___  _   _ | |_/ /  __ _   ___ | | __| ___ \ / _` || | / _` || | | |  |  __|  / _` |/ __|| | | ||  __/  / _` | / __|| |/ /| |_/ /| (_| || || (_| || |_| |  | |___ | (_| |\__ \| |_| || |    | (_| || (__ |   <\____/  \__,_||_| \__,_| \__,_|  \____/  \__,_||___/ \__, |\_|     \__,_| \___||_|\_\                                                      __/ |                                                     |___/
+--------------------------------------------------------------------------------------
+2019-12-12 11:37:25,141 - 25322 - install - INFO - start to prepare work directory...
+2019-12-12 11:37:25,142 - 25322 - install - INFO - install option: inall, user name: baidu
+2019-12-12 11:37:25,143 - 25322 - install - INFO - start to check python version...
+2019-12-12 11:37:25,143 - 25322 - install - INFO - start to check current user...
+2019-12-12 11:37:25,143 - 25322 - install - INFO - start to check integrity of this package...
+2019-12-12 11:37:25,143 - 25322 - install - INFO - start to prepare docker_time_deal.sh...
+2019-12-12 11:37:25,143 - 25322 - install - INFO - start to check the environment...
+[default] environment checking start
+>>>>>>>>>>>>>service_command checking: ... pass
+>>>>>>>>>>>>>cpu_digit checking: ... pass( claim is .*x86_64.*, real is x86_64 )
+>>>>>>>>>>>>>glibc_version checking: ... pass( claim is 2.14, real is 2.17 )
+>>>>>>>>>>>>>python_version checking: ... pass( claim is 2.7, real is 2.7.5 )
+>>>>>>>>>>>>>glibcxx_version checking: ... pass( claim is 3.4.19, real is 3.4.19 )
+>>>>>>>>>>>>>disk_home checking: ... pass( claim is >=512 GB, real is 37888 GB )
+>>>>>>>>>>>>>cpu_model checking: ... pass( claim is .*(Intel|AMD).*, real is 56  Intel(R) Xeon(R) Gold 5117 CPU @ 2.00GHz )
+>>>>>>>>>>>>>release_version checking: ... pass( centos 7.7.1908 )>>>>>>>>>>>>>gcc_version checking: ... pass( claim is 4.8.2, real is 4.8.5 )
+>>>>>>>>>>>>>root checking: ... pass
+>>>>>>>>>>>>>network checking: ... pass( Get IP informations: em4:192.168.0.74/24 virbr0:192.168.122.1/24  )
+[c-offline-security-server] environment checking start
+ >>>>>>>>>>>>>nic checking: ... pass( Find physics network interface card: em2 em4 p2p2 em3 p2p1 em1  )
+>>>>>>>>>>>>>machine checking: ... pass
+>>>>>>>>>>>>>instruction_set checking: ... pass
+>>>>>>>>>>>>>memory checking: ... pass( claim is >=8 GB, real is 251 GB )
+>>>>>>>>>>>>>port checking: ...
+              port 8443 cheking... not in use
+             port 7091 cheking... not in use
+             port 7092 cheking... not in use
+             pass
+[face-server] environment checking start 
+>>>>>>>>>>>>>disk_image checking: ... pass( claim is >=100 GB, real is 37888 GB )
+>>>>>>>>>>>>>selinux checking: ... pass
+>>>>>>>>>>>>>memory checking: ... pass( claim is >=32 GB, real is 251 GB )
+>>>>>>>>>>>>>release_version checking: ... pass( centos 7.7.1908 )
+>>>>>>>>>>>>>docker_version checking: ... pass( docker not installed, it will be installed with service. )
+[nvidia] environment checking start 
+>>>>>>>>>>>>>nvidia_docker_version checking: ... pass( nvidia-docker not installed, it will be installed with service. )
+>>>>>>>>>>>>>nvidia_memory checking: ... pass( claim is >=6 G, real is 7 G )
+>>>>>>>>>>>>>nvidia_driver checking: ... pass( claim is 384.66, real is 430.40 )
+>>>>>>>>>>>>>nvidia_model checking: ... pass( claim is [u'Tesla P40', u'Tesla P4', u'GTX 1070', u'GTX 1080', u'GTX 1080 Ti'], real is Tesla P4 )
+[docker] environment checking start 
+>>>>>>>>>>>>>kernel_version checking: ... pass( claim is 3.10, real is 3.10.0 )
+The conclusion of environment checking is :pass
 ```
 
 部署完成以后，人脸服务将自动起来，可以curl测试api接口。人脸Api接口端口固定为8300。
@@ -236,8 +318,23 @@ rmmod: ERROR: Module nvidia_modeset is in use by: nvidia_drm
 [root@localhost xux]# rmmod nvidia_modeset
 [root@localhost xux]# rmmod nvidia
 [root@localhost xux]# nvidia-smi
-Fri Dec 13 15:18:11 2019       +-----------------------------------------------------------------------------+| NVIDIA-SMI 430.40       Driver Version: 430.40       CUDA Version: 10.1     ||-------------------------------+----------------------+----------------------+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC || Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. ||===============================+======================+======================||   0  Tesla P4            Off  | 00000000:3B:00.0 Off |                    0 || N/A   44C    P0    23W /  75W |      0MiB /  7611MiB |      2%      Default |+-------------------------------+----------------------+----------------------++-----------------------------------------------------------------------------+| Processes:                                                       GPU Memory ||  GPU       PID   Type   Process name                             Usage      ||=============================================================================||  No running processes found                                                 |+-----------------------------------------------------------------------------+[root@localhost xux]# docker version
-Client: Version:      17.06.2-ce API version:  1.30 Go version:   go1.8.3 Git commit:   cec0b72 Built:        Tue Sep  5 19:59:06 2017 OS/Arch:      linux/amd64Server: Version:      17.06.2-ce API version:  1.30 (minimum version 1.12) Go version:   go1.8.3 Git commit:   cec0b72 Built:        Tue Sep  5 20:00:25 2017 OS/Arch:      linux/amd64 Experimental: false[root@localhost xux]# docker infoContainers: 1 Running: 0 Paused: 0 Stopped: 1Images: 2Server Version: 17.06.2-ceStorage Driver: overlay Backing Filesystem: xfs Supports d_type: falseLogging Driver: json-fileCgroup Driver: cgroupfsPlugins:  Volume: local Network: bridge host macvlan null overlay Log: awslogs fluentd gcplogs gelf journald json-file logentries splunk syslogSwarm: inactiveRuntimes: nvidia runcDefault Runtime: runcInit Binary: docker-initcontainerd version: 6e23458c129b551d5c9871e5174f6b1b7f6d1170runc version: 810190ceaa507aa2727d7ae6f4790c76ec150bd2init version: 949e6faSecurity Options: seccomp  Profile: defaultKernel Version: 3.10.0-327.el7.x86_64Operating System: CentOS Linux 7 (Core)OSType: linuxArchitecture: x86_64CPUs: 56Total Memory: 251.2GiBName: localhost.localdomainID: 3I5B:DURB:MQZV:KCVN:Q2BC:JC3A:ZAXU:ZXFH:MQTY:A4NJ:RGDQ:3FZ3Docker Root Dir: /home/baidu/dockerDebug Mode (client): falseDebug Mode (server): falseRegistry: https://index.docker.io/v1/Experimental: falseInsecure Registries: 127.0.0.0/8Live Restore Enabled: falseWARNING: overlay: the backing xfs filesystem is formatted without d_type support, which leads to incorrect behavior.         Reformat the filesystem with ftype=1 to enable d_type support.         Running without d_type support will not be supported in future releases.WARNING: bridge-nf-call-iptables is disabledWARNING: bridge-nf-call-ip6tables is disabled
+Fri Dec 13 15:18:11 2019       +-----------------------------------------------------------------------------+| NVIDIA-SMI 430.40       Driver Version: 430.40       CUDA Version: 10.1     ||-------------------------------+----------------------+----------------------+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC || Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. ||===============================+======================+======================||   0  Tesla P4            Off  | 00000000:3B:00.0 Off |                    0 || N/A   44C    P0    23W /  75W |      0MiB /  7611MiB |      2%      Default |+-------------------------------+----------------------+----------------------++-----------------------------------------------------------------------------+| Processes:                                                       GPU Memory ||  GPU       PID   Type   Process name                             Usage      ||=============================================================================||  No running processes found                                                 |+-----------------------------------------------------------------------------+
+[root@localhost xux]# docker version
+Client: Version:      17.06.2-ce 
+API version:  1.30 
+Go version:   go1.8.3 
+Git commit:   cec0b72 
+Built:        Tue Sep  5 19:59:06 2017 
+OS/Arch:      linux/amd64
+Server: Version:      17.06.2-ce 
+API version:  1.30 (minimum version 1.12) 
+Go version:   go1.8.3 
+Git commit:   cec0b72 
+Built:        Tue Sep  5 20:00:25 2017 
+OS/Arch:      linux/amd64 
+Experimental: false
+[root@localhost xux]# docker info
+Containers: 1 Running: 0 Paused: 0 Stopped: 1Images: 2Server Version: 17.06.2-ceStorage Driver: overlay Backing Filesystem: xfs Supports d_type: falseLogging Driver: json-fileCgroup Driver: cgroupfsPlugins:  Volume: local Network: bridge host macvlan null overlay Log: awslogs fluentd gcplogs gelf journald json-file logentries splunk syslogSwarm: inactiveRuntimes: nvidia runcDefault Runtime: runcInit Binary: docker-initcontainerd version: 6e23458c129b551d5c9871e5174f6b1b7f6d1170runc version: 810190ceaa507aa2727d7ae6f4790c76ec150bd2init version: 949e6faSecurity Options: seccomp  Profile: defaultKernel Version: 3.10.0-327.el7.x86_64Operating System: CentOS Linux 7 (Core)OSType: linuxArchitecture: x86_64CPUs: 56Total Memory: 251.2GiBName: localhost.localdomainID: 3I5B:DURB:MQZV:KCVN:Q2BC:JC3A:ZAXU:ZXFH:MQTY:A4NJ:RGDQ:3FZ3Docker Root Dir: /home/baidu/dockerDebug Mode (client): falseDebug Mode (server): falseRegistry: https://index.docker.io/v1/Experimental: falseInsecure Registries: 127.0.0.0/8Live Restore Enabled: falseWARNING: overlay: the backing xfs filesystem is formatted without d_type support, which leads to incorrect behavior.         Reformat the filesystem with ftype=1 to enable d_type support.         Running without d_type support will not be supported in future releases.WARNING: bridge-nf-call-iptables is disabledWARNING: bridge-nf-call-ip6tables is disabled
 [root@localhost xux]# docker ps -a
 CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS                        PORTS               NAMES9883972f8aff        300478125c1e        "/home/idl-face/ta..."   25 hours ago        Exited (137) 10 minutes ago                       face-service-0-0
 [root@localhost xux]# docker restart 98839883
@@ -268,20 +365,24 @@ success
   数据库服务无法自动部署，按照[常见问题及排查](https://ai.baidu.com/ai-doc/FACE/Qk38rb0jl)手动部署并设置服务开机自动启动
 
 ```
-2019-12-12 11:39:39,727 - 25322 - install - INFO - start to copy face-server files to /home/baidu/work/face-server2019-12-12 11:41:21,204 - 25322 - install - INFO - create easypack_init.sh...2019-12-12 11:41:21,204 - 25322 - install - INFO - Check if install mode is single: False 2019-12-12 11:41:21,204 - 25322 - install - INFO - subprocess start,cmd : cd /home/baidu/work/face-server/project-conf && bash multi_docker_start.shdatabus ip: 192.168.0.74 , databus port: 5535  ? [y|n]2019-12-12 11:41:51,217 - 25322 - install - ERROR - subprocess failed,exception occurred: Command 'cd /home/baidu/work/face-server/project-conf && bash multi_docker_start.sh' returned non-zero exit status 1Traceback (most recent call last):  File "/home/xux/deployment_test/original/package/Install/shell.py", line 77, in run_with_check_out    sp.check_output(args, shell=True)  File "/usr/lib64/python2.7/subprocess.py", line 575, in check_output    raise CalledProcessError(retcode, cmd, output=output)CalledProcessError: Command 'cd /home/baidu/work/face-server/project-conf && bash multi_docker_start.sh' returned non-zero exit status 12019-12-12 11:41:52,909 - 25322 - install - ERROR - install face-server failed!
+2019-12-12 11:39:39,727 - 25322 
+- install - INFO - start to copy face-server files to /home/baidu/work/face-server2019-12-12 11:41:21,204 - 25322 
+- install - INFO - create easypack_init.sh...2019-12-12 11:41:21,204 - 25322 
+- install - INFO - Check if install mode is single: False 2019-12-12 11:41:21,204 - 25322 
+- install - INFO - subprocess start,cmd : cd /home/baidu/work/face-server/project-conf && bash multi_docker_start.shdatabus ip: 192.168.0.74 , databus port: 5535  ? [y|n]2019-12-12 11:41:51,217 - 25322 - install - ERROR - subprocess failed,exception occurred: Command 'cd /home/baidu/work/face-server/project-conf && bash multi_docker_start.sh' returned non-zero exit status 1Traceback (most recent call last):  File "/home/xux/deployment_test/original/package/Install/shell.py", line 77, in run_with_check_out    sp.check_output(args, shell=True)  File "/usr/lib64/python2.7/subprocess.py", line 575, in check_output    raise CalledProcessError(retcode, cmd, output=output)CalledProcessError: Command 'cd /home/baidu/work/face-server/project-conf && bash multi_docker_start.sh' returned non-zero exit status 12019-12-12 11:41:52,909 - 25322 - install - ERROR - install face-server failed!
 ```
 
 
 
-![img](img/in-post/20200103/微信图片_20200103100723.jpg)
+![img](/img/in-post/20200103/微信图片_20200103100723.jpg)
 
 
 
-![img](img/in-post/20200103/微信图片_20200103100730.jpg)
+![img](/img/in-post/20200103/微信图片_20200103100730.jpg)
 
 
 
-![img](img/in-post/20200103/微信图片_20200103100734.jpg)
+![img](/img/in-post/20200103/微信图片_20200103100734.jpg)
 
 
 
