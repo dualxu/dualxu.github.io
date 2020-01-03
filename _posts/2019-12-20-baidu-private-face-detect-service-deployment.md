@@ -41,7 +41,15 @@ tags:
 我们实际硬件配置如下：
 
 ```
-R740  14核2.0G  5117*232GB*8第三方4TB SATA企业级 7.2K*1H330DVDRW1100W*2X710双口万兆含2个模块Nvidia Tesla P4 GPU*1无导轨3年2U机架式
+R740  14核2.0G  5117*2
+32GB*8第三方
+4TB SATA企业级 7.2K*1
+H330DVDRW
+1100W*2
+X710双口万兆含2个模块
+Nvidia Tesla P4 GPU*1无导轨
+3年
+2U机架式
 ```
 
 
@@ -65,7 +73,7 @@ R740  14核2.0G  5117*232GB*8第三方4TB SATA企业级 7.2K*1H330DVDRW1100W*2X7
 
 
 
-​        部署步骤在此 https://ai.baidu.com/ai-doc/FACE/Kk38rffzg。
+​        [部署步骤](https://ai.baidu.com/ai-doc/FACE/Kk38rffzg)
 
 
 
@@ -109,7 +117,19 @@ R740  14核2.0G  5117*232GB*8第三方4TB SATA企业级 7.2K*1H330DVDRW1100W*2X7
 
 
 ```
-[xux@localhost ~]$ cd fingerprint_tool/[xux@localhost fingerprint_tool]$ lsget_machine_finger_en  README[xux@localhost fingerprint_tool]$ ll总用量 312-rwxrwxrwx 1 xux xux 311876 12月 10 09:55 get_machine_finger_en-rw-r--r-- 1 xux xux    822 12月 10 09:55 README[xux@localhost fingerprint_tool]$ ./get_machine_finger_en get machine finger startget machine finger end[xux@localhost fingerprint_tool]$ ll /tmp/sec*-rw-rw-r-- 1 root root 109 12月 10 09:58 /tmp/secfile_localhost.localdomain[xux@localhost fingerprint_tool]$
+[xux@localhost ~]$ cd fingerprint_tool/
+[xux@localhost fingerprint_tool]$ ls
+get_machine_finger_en  README
+[xux@localhost fingerprint_tool]$ ll
+总用量 312
+-rwxrwxrwx 1 xux xux 311876 12月 10 09:55 get_machine_finger_en
+-rw-r--r-- 1 xux xux    822 12月 10 09:55 README
+[xux@localhost fingerprint_tool]$ ./get_machine_finger_en 
+get machine finger start
+get machine finger end
+[xux@localhost fingerprint_tool]$ ll /tmp/sec*
+-rw-rw-r-- 1 root root 109 12月 10 09:58 /tmp/secfile_localhost.localdomain
+[xux@localhost fingerprint_tool]$
 ```
 
 
@@ -127,7 +147,12 @@ R740  14核2.0G  5117*232GB*8第三方4TB SATA企业级 7.2K*1H330DVDRW1100W*2X7
 部署时有个环境检查工具来确保没有问题，最后会有个检查结果：pass 或者 fail。
 
 ```
-______         _      _           _____                    ______               _| ___ \       (_)    | |         |  ___|                   | ___ \             | || |_/ /  __ _  _   __| | _   _   | |__    __ _  ___  _   _ | |_/ /  __ _   ___ | | __| ___ \ / _` || | / _` || | | |  |  __|  / _` |/ __|| | | ||  __/  / _` | / __|| |/ /| |_/ /| (_| || || (_| || |_| |  | |___ | (_| |\__ \| |_| || |    | (_| || (__ |   <\____/  \__,_||_| \__,_| \__,_|  \____/  \__,_||___/ \__, |\_|     \__,_| \___||_|\_\                                                      __/ |                                                     |___/--------------------------------------------------------------------------------------[default] environment checking start >>>>>>>>>>>>>>>>>>>>>>>>>>service_command checking: ... pass>>>>>>>>>>>>>cpu_digit checking: ... pass( claim is .*x86_64.*, real is x86_64 )>>>>>>>>>>>>>glibc_version checking: ... pass( claim is 2.14, real is 2.17 )>>>>>>>>>>>>>python_version checking: ... pass( claim is 2.7, real is 2.7.5 )>>>>>>>>>>>>>glibcxx_version checking: ... pass( claim is 3.4.19, real is 3.4.19 )>>>>>>>>>>>>>disk_home checking: ... pass( claim is >=512 GB, real is 37888 GB )>>>>>>>>>>>>>cpu_model checking: ... pass( claim is .*(Intel|AMD).*, real is 56  Intel(R) Xeon(R) Gold 5117 CPU @ 2.00GHz )>>>>>>>>>>>>>release_version checking: ... pass( centos 7.7.1908 )>>>>>>>>>>>>>gcc_version checking: ... pass( claim is 4.8.2, real is 4.8.5 )>>>>>>>>>>>>>root checking: ... pass>>>>>>>>>>>>>network checking: ... pass( Get IP informations: em4:192.168.0.74/24 virbr0:192.168.122.1/24 docker0:172.17.0.1/16  )[c-offline-security-server] environment checking start >>>>>>>>>>>>>>>>>>>>>>>>>>nic checking: ... pass( Find physics network interface card: p2p1 em4 p2p2 em3 em2 em1  )>>>>>>>>>>>>>machine checking: ... pass>>>>>>>>>>>>>instruction_set checking: ... pass>>>>>>>>>>>>>memory checking: ... pass( claim is >=8 GB, real is 251 GB )>>>>>>>>>>>>>port checking: ...              port 8443 cheking... not in use             port 7091 cheking... not in use             port 7092 cheking... not in use             pass[face-server] environment checking start >>>>>>>>>>>>>>>>>>>>>>>>>>disk_image checking: ... pass( claim is >=100 GB, real is 37888 GB )>>>>>>>>>>>>>selinux checking: ... pass>>>>>>>>>>>>>memory checking: ... pass( claim is >=32 GB, real is 251 GB )>>>>>>>>>>>>>release_version checking: ... pass( centos 7.7.1908 )>>>>>>>>>>>>>docker_version checking: ... fail( claim is 17.12, real is 1.13.1 )[nvidia] environment checking start >>>>>>>>>>>>>>>>>>>>>>>>>>nvidia_docker_version checking: ... fail( claim is 2.0.2, real is 1.0.1 )>>>>>>>>>>>>>nvidia_memory checking: ... pass( claim is >=6 G, real is 7 G )>>>>>>>>>>>>>nvidia_driver checking: ... fail( claim is 384.66, real is 375.66 )>>>>>>>>>>>>>nvidia_model checking: ... pass( claim is [u'Tesla P40', u'Tesla P4', u'GTX 1070', u'GTX 1080', u'GTX 1080 Ti'], real is Tesla P4 )[docker] environment checking start >>>>>>>>>>>>>>>>>>>>>>>>>>kernel_version checking: ... pass( claim is 3.10, real is 3.10.0 )The conclusion of environment checking is :fail未通过的检查项详情如下：You can use 'pip install prettytable' to use PrettyTable.     模块              检查项            指标要求       实际参数或报错信息       face-server      docker_version                    claim is 17.12, real is 1.13.1     nvidia    nvidia_docker_version                 claim is 2.0.2, real is 1.0.1      nvidia        nvidia_driver                    claim is 384.66, real is 375.66 Press any key to quit. Press 'continue' to continue the installation without guarantee of success.
+______         _      _           _____                    ______               _| ___ \       (_)    | |         |  ___|                   | ___ \             | || |_/ /  __ _  _   __| | _   _   | |__    __ _  ___  _   _ | |_/ /  __ _   ___ | | __| ___ \ / _` || | / _` || | | |  |  __|  / _` |/ __|| | | ||  __/  / _` | / __|| |/ /| |_/ /| (_| || || (_| || |_| |  | |___ | (_| |\__ \| |_| || |    | (_| || (__ |   <\____/  \__,_||_| \__,_| \__,_|  \____/  \__,_||___/ \__, |\_|     \__,_| \___||_|\_\                                                      __/ |                                                     |___/--------------------------------------------------------------------------------------[default] environment checking start >>>>>>>>>>>>>>>>>>>>>>>>>>service_command checking: ... pass
+>>>>>>>>>>>>>cpu_digit checking: ... pass( claim is .*x86_64.*, real is x86_64 )
+>>>>>>>>>>>>>>>>>>>>>>>>>>glibc_version checking: ... pass( claim is 2.14, real is 2.17 )
+>>>>>>>>>>>>>python_version checking: ... pass( claim is 2.7, real is 2.7.5 )
+>>>>>>>>>>>>>>>>>>>>>>>>>>glibcxx_version checking: ... pass( claim is 3.4.19, real is 3.4.19 )>>>>>>>>>>>>>disk_home checking: ... pass( claim is >=512 GB, real is 37888 GB )>>>>>>>>>>>>>cpu_model checking: ... pass( claim is .*(Intel|AMD).*, real is 56  Intel(R) Xeon(R) Gold 5117 CPU @ 2.00GHz )>>>>>>>>>>>>>release_version checking: ... pass( centos 7.7.1908 )>>>>>>>>>>>>>gcc_version checking: ... pass( claim is 4.8.2, real is 4.8.5 )>>>>>>>>>>>>>root checking: ... pass>>>>>>>>>>>>>network checking: ... pass( Get IP informations: em4:192.168.0.74/24 virbr0:192.168.122.1/24 docker0:172.17.0.1/16  )[c-offline-security-server] environment checking start >>>>>>>>>>>>>>>>>>>>>>>>>>nic checking: ... pass( Find physics network interface card: p2p1 em4 p2p2 em3 em2 em1  )>>>>>>>>>>>>>machine checking: ... pass>>>>>>>>>>>>>instruction_set checking: ... pass>>>>>>>>>>>>>memory checking: ... pass( claim is >=8 GB, real is 251 GB )>>>>>>>>>>>>>port checking: ...              port 8443 cheking... not in use             port 7091 cheking... not in use             port 7092 cheking... not in use             pass[face-server] environment checking start >>>>>>>>>>>>>>>>>>>>>>>>>>disk_image checking: ... pass( claim is >=100 GB, real is 37888 GB )>>>>>>>>>>>>>selinux checking: ... pass>>>>>>>>>>>>>memory checking: ... pass( claim is >=32 GB, real is 251 GB )>>>>>>>>>>>>>release_version checking: ... pass( centos 7.7.1908 )>>>>>>>>>>>>>docker_version checking: ... fail( claim is 17.12, real is 1.13.1 )[nvidia] environment checking start >>>>>>>>>>>>>>>>>>>>>>>>>>nvidia_docker_version checking: ... fail( claim is 2.0.2, real is 1.0.1 )>>>>>>>>>>>>>nvidia_memory checking: ... pass( claim is >=6 G, real is 7 G )>>>>>>>>>>>>>nvidia_driver checking: ... fail( claim is 384.66, real is 375.66 )>>>>>>>>>>>>>nvidia_model checking: ... pass( claim is [u'Tesla P40', u'Tesla P4', u'GTX 1070', u'GTX 1080', u'GTX 1080 Ti'], real is Tesla P4 )[docker] environment checking start >>>>>>>>>>>>>>>>>>>>>>>>>>kernel_version checking: ... pass( claim is 3.10, real is 3.10.0 )The conclusion of environment checking is :fail未通过的检查项详情如下：You can use 'pip install prettytable' to use PrettyTable.     模块              检查项            指标要求       实际参数或报错信息       face-server      docker_version                    claim is 17.12, real is 1.13.1     nvidia    nvidia_docker_version                 claim is 2.0.2, real is 1.0.1      nvidia        nvidia_driver                    claim is 384.66, real is 375.66 
+Press any key to quit. Press 'continue' to continue the installation without guarantee of success.
 ```
 
 总结下来就是：
@@ -186,33 +211,61 @@ ______         _      _           _____                    ______               
 
 - 碰到的问题及解决办法
 
-百度私有化部署文档[https://ai.baidu.com/ai-doc/FACE/Ik37c1is5]很多已经说的足够清楚了，这里说下我在部署中碰到的几个问题：
+[百度私有化部署文档](https://ai.baidu.com/ai-doc/FACE/Ik37c1is5)很多已经说的足够清楚了，这里说下我在部署中碰到的几个问题：
 
 - 厂商给安装的CentOS 8系统，他们自己忘记了root密码。无奈，只能自己重新下载了CentOS 7.2的系统，然后刻盘重装系统！
 - 自己多年前曾在读写器上做过linux裁剪和移植，但现在大部分linux系统命令都已经快忘得差不多了，重新bing各种命令。算是再次学习了一次吧。
-- 一键部署以后服务器每次重启后，人脸服务都没法正常起来。nvidia-smi命令返回Driver/library version mismatch错误，按照[https://comzyh.com/blog/archives/967/]完美解决：root权限rmmod nvidia(有依赖项如nvidia_modeset, nvidia_drm先卸载) 再重启docker restart即可。这个部分我后续会写个启动脚本来解决。
+- 一键部署以后服务器每次重启后，人脸服务都没法正常起来。nvidia-smi命令返回Driver/library version mismatch错误，按照[此方法](https://comzyh.com/blog/archives/967/)完美解决：root权限rmmod nvidia(有依赖项如nvidia_modeset, nvidia_drm先卸载) 再重启docker restart即可。这个部分我后续会写个启动脚本来解决。
 
 ```
-[root@localhost yum.repos.d]# nvidia-smiFailed to initialize NVML: Driver/library version mismatch
+[root@localhost yum.repos.d]# nvidia-smi
+Failed to initialize NVML: Driver/library version mismatch
 ```
 
 
 
 ```
-[xux@localhost ~]$ su root密码：ABRT 已检测到 '2' 个问题。预了解详细信息请执行：abrt-cli list --since 1576219734[root@localhost xux]# rmmod nvidiarmmod: ERROR: Module nvidia is in use by: nvidia_modeset[root@localhost xux]# rmmod nvidia_modesetrmmod: ERROR: Module nvidia_modeset is in use by: nvidia_drm[root@localhost xux]# rmmod nvidia_drm[root@localhost xux]# rmmod nvidia_modeset[root@localhost xux]# rmmod nvidia[root@localhost xux]# nvidia-smiFri Dec 13 15:18:11 2019       +-----------------------------------------------------------------------------+| NVIDIA-SMI 430.40       Driver Version: 430.40       CUDA Version: 10.1     ||-------------------------------+----------------------+----------------------+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC || Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. ||===============================+======================+======================||   0  Tesla P4            Off  | 00000000:3B:00.0 Off |                    0 || N/A   44C    P0    23W /  75W |      0MiB /  7611MiB |      2%      Default |+-------------------------------+----------------------+----------------------++-----------------------------------------------------------------------------+| Processes:                                                       GPU Memory ||  GPU       PID   Type   Process name                             Usage      ||=============================================================================||  No running processes found                                                 |+-----------------------------------------------------------------------------+[root@localhost xux]# docker versionClient: Version:      17.06.2-ce API version:  1.30 Go version:   go1.8.3 Git commit:   cec0b72 Built:        Tue Sep  5 19:59:06 2017 OS/Arch:      linux/amd64Server: Version:      17.06.2-ce API version:  1.30 (minimum version 1.12) Go version:   go1.8.3 Git commit:   cec0b72 Built:        Tue Sep  5 20:00:25 2017 OS/Arch:      linux/amd64 Experimental: false[root@localhost xux]# docker infoContainers: 1 Running: 0 Paused: 0 Stopped: 1Images: 2Server Version: 17.06.2-ceStorage Driver: overlay Backing Filesystem: xfs Supports d_type: falseLogging Driver: json-fileCgroup Driver: cgroupfsPlugins:  Volume: local Network: bridge host macvlan null overlay Log: awslogs fluentd gcplogs gelf journald json-file logentries splunk syslogSwarm: inactiveRuntimes: nvidia runcDefault Runtime: runcInit Binary: docker-initcontainerd version: 6e23458c129b551d5c9871e5174f6b1b7f6d1170runc version: 810190ceaa507aa2727d7ae6f4790c76ec150bd2init version: 949e6faSecurity Options: seccomp  Profile: defaultKernel Version: 3.10.0-327.el7.x86_64Operating System: CentOS Linux 7 (Core)OSType: linuxArchitecture: x86_64CPUs: 56Total Memory: 251.2GiBName: localhost.localdomainID: 3I5B:DURB:MQZV:KCVN:Q2BC:JC3A:ZAXU:ZXFH:MQTY:A4NJ:RGDQ:3FZ3Docker Root Dir: /home/baidu/dockerDebug Mode (client): falseDebug Mode (server): falseRegistry: https://index.docker.io/v1/Experimental: falseInsecure Registries: 127.0.0.0/8Live Restore Enabled: falseWARNING: overlay: the backing xfs filesystem is formatted without d_type support, which leads to incorrect behavior.         Reformat the filesystem with ftype=1 to enable d_type support.         Running without d_type support will not be supported in future releases.WARNING: bridge-nf-call-iptables is disabledWARNING: bridge-nf-call-ip6tables is disabled[root@localhost xux]# docker ps -aCONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS                        PORTS               NAMES9883972f8aff        300478125c1e        "/home/idl-face/ta..."   25 hours ago        Exited (137) 10 minutes ago                       face-service-0-0[root@localhost xux]# docker restart 98839883[root@localhost xux]# curl 192.168.0.74:8300/face-api/v3/app/list{"error_code":0,"error_msg":"SUCCESS","log_id":1357212138,"timestamp":1576221757,"cached":0,"result":{"app_id_list":[]}}[root@localhost xux]#
+[xux@localhost ~]$ su root
+密码：
+ABRT 已检测到 '2' 个问题。预了解详细信息请执行：abrt-cli list --since 1576219734
+[root@localhost xux]# rmmod nvidia
+rmmod: ERROR: Module nvidia is in use by: nvidia_modeset
+[root@localhost xux]# rmmod nvidia_modeset
+rmmod: ERROR: Module nvidia_modeset is in use by: nvidia_drm
+[root@localhost xux]# rmmod nvidia_drm
+[root@localhost xux]# rmmod nvidia_modeset
+[root@localhost xux]# rmmod nvidia
+[root@localhost xux]# nvidia-smi
+Fri Dec 13 15:18:11 2019       +-----------------------------------------------------------------------------+| NVIDIA-SMI 430.40       Driver Version: 430.40       CUDA Version: 10.1     ||-------------------------------+----------------------+----------------------+| GPU  Name        Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC || Fan  Temp  Perf  Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. ||===============================+======================+======================||   0  Tesla P4            Off  | 00000000:3B:00.0 Off |                    0 || N/A   44C    P0    23W /  75W |      0MiB /  7611MiB |      2%      Default |+-------------------------------+----------------------+----------------------++-----------------------------------------------------------------------------+| Processes:                                                       GPU Memory ||  GPU       PID   Type   Process name                             Usage      ||=============================================================================||  No running processes found                                                 |+-----------------------------------------------------------------------------+[root@localhost xux]# docker version
+Client: Version:      17.06.2-ce API version:  1.30 Go version:   go1.8.3 Git commit:   cec0b72 Built:        Tue Sep  5 19:59:06 2017 OS/Arch:      linux/amd64Server: Version:      17.06.2-ce API version:  1.30 (minimum version 1.12) Go version:   go1.8.3 Git commit:   cec0b72 Built:        Tue Sep  5 20:00:25 2017 OS/Arch:      linux/amd64 Experimental: false[root@localhost xux]# docker infoContainers: 1 Running: 0 Paused: 0 Stopped: 1Images: 2Server Version: 17.06.2-ceStorage Driver: overlay Backing Filesystem: xfs Supports d_type: falseLogging Driver: json-fileCgroup Driver: cgroupfsPlugins:  Volume: local Network: bridge host macvlan null overlay Log: awslogs fluentd gcplogs gelf journald json-file logentries splunk syslogSwarm: inactiveRuntimes: nvidia runcDefault Runtime: runcInit Binary: docker-initcontainerd version: 6e23458c129b551d5c9871e5174f6b1b7f6d1170runc version: 810190ceaa507aa2727d7ae6f4790c76ec150bd2init version: 949e6faSecurity Options: seccomp  Profile: defaultKernel Version: 3.10.0-327.el7.x86_64Operating System: CentOS Linux 7 (Core)OSType: linuxArchitecture: x86_64CPUs: 56Total Memory: 251.2GiBName: localhost.localdomainID: 3I5B:DURB:MQZV:KCVN:Q2BC:JC3A:ZAXU:ZXFH:MQTY:A4NJ:RGDQ:3FZ3Docker Root Dir: /home/baidu/dockerDebug Mode (client): falseDebug Mode (server): falseRegistry: https://index.docker.io/v1/Experimental: falseInsecure Registries: 127.0.0.0/8Live Restore Enabled: falseWARNING: overlay: the backing xfs filesystem is formatted without d_type support, which leads to incorrect behavior.         Reformat the filesystem with ftype=1 to enable d_type support.         Running without d_type support will not be supported in future releases.WARNING: bridge-nf-call-iptables is disabledWARNING: bridge-nf-call-ip6tables is disabled
+[root@localhost xux]# docker ps -a
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS                        PORTS               NAMES9883972f8aff        300478125c1e        "/home/idl-face/ta..."   25 hours ago        Exited (137) 10 minutes ago                       face-service-0-0
+[root@localhost xux]# docker restart 98839883
+[root@localhost xux]# curl 192.168.0.74:8300/face-api/v3/app/list{"error_code":0,"error_msg":"SUCCESS","log_id":1357212138,"timestamp":1576221757,"cached":0,"result":{"app_id_list":[]}}
+[root@localhost xux]#
 ```
 
 - 调用接口返回error_code 222910错误：最终发现是防火墙未打开mysql数据库5535端口。打开防火墙5535端口，如下，其中3389为远程桌面rdp端口。
 
 ```
-[root@localhost c-offline-security-server]# firewall-cmd --query-port=5535/tcpno[root@localhost c-offline-security-server]# firewall-cmd --list-port3389/tcp[root@localhost c-offline-security-server]# firewall-cmd --zone=public --add-port=5535/tcp --permanentsuccess[root@localhost c-offline-security-server]# firewall-cmd --list-port3389/tcp[root@localhost c-offline-security-server]# firewall-cmd --reloadsuccess[root@localhost c-offline-security-server]# firewall-cmd --list-port3389/tcp 5535/tcp[root@localhost c-offline-security-server]# curl 192.168.0.74:8300/face-api/v3/app/list{"error_code":0,"error_msg":"SUCCESS","log_id":2764973042,"timestamp":1576136764,"cached":0,"result":{"app_id_list":[]}}[root@localhost c-offline-security-server]#
+[root@localhost c-offline-security-server]# firewall-cmd --query-port=5535/tcpno
+[root@localhost c-offline-security-server]# firewall-cmd --list-port3389/tcp
+[root@localhost c-offline-security-server]# firewall-cmd --zone=public --add-port=5535/tcp --permanent
+success
+[root@localhost c-offline-security-server]# firewall-cmd --list-port3389/tcp
+[root@localhost c-offline-security-server]# firewall-cmd --reload
+success
+[root@localhost c-offline-security-server]# firewall-cmd --list-port
+3389/tcp 5535/tcp
+[root@localhost c-offline-security-server]# curl 192.168.0.74:8300/face-api/v3/app/list{"error_code":0,"error_msg":"SUCCESS","log_id":2764973042,"timestamp":1576136764,"cached":0,"result":{"app_id_list":[]}}
+[root@localhost c-offline-security-server]#
 ```
 
 
 
 - 部署时出现错误CalledProcessError，Command 'cd /home/baidu/work/face-server/project-conf && bash multi_docker_start.sh' returned non-zero exit status 1，
 
-  数据库服务无法自动部署，按照常见问题及排查上[https://ai.baidu.com/ai-doc/FACE/Qk38rb0jl]手动部署并设置服务开机自动启动
+  数据库服务无法自动部署，按照[常见问题及排查](https://ai.baidu.com/ai-doc/FACE/Qk38rb0jl)手动部署并设置服务开机自动启动
 
 ```
 2019-12-12 11:39:39,727 - 25322 - install - INFO - start to copy face-server files to /home/baidu/work/face-server2019-12-12 11:41:21,204 - 25322 - install - INFO - create easypack_init.sh...2019-12-12 11:41:21,204 - 25322 - install - INFO - Check if install mode is single: False 2019-12-12 11:41:21,204 - 25322 - install - INFO - subprocess start,cmd : cd /home/baidu/work/face-server/project-conf && bash multi_docker_start.shdatabus ip: 192.168.0.74 , databus port: 5535  ? [y|n]2019-12-12 11:41:51,217 - 25322 - install - ERROR - subprocess failed,exception occurred: Command 'cd /home/baidu/work/face-server/project-conf && bash multi_docker_start.sh' returned non-zero exit status 1Traceback (most recent call last):  File "/home/xux/deployment_test/original/package/Install/shell.py", line 77, in run_with_check_out    sp.check_output(args, shell=True)  File "/usr/lib64/python2.7/subprocess.py", line 575, in check_output    raise CalledProcessError(retcode, cmd, output=output)CalledProcessError: Command 'cd /home/baidu/work/face-server/project-conf && bash multi_docker_start.sh' returned non-zero exit status 12019-12-12 11:41:52,909 - 25322 - install - ERROR - install face-server failed!

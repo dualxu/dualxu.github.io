@@ -1,7 +1,7 @@
 ---
 layout:       post
 title:        "406 Not Acceptable"
-subtitle:     "What is it and how to fix it"
+subtitle:     "What It Is and How to Fix It"
 date:         2019-12-25 19:56:32
 author:       "Devdog"
 header-img:   "img/in-post/post-bg/post-bg-random25.jpg"
@@ -14,9 +14,7 @@ tags:
 
 
 
-原文链接参见[https://airbrake.io/blog/http-errors/406-not-acceptable], 工作中偶然碰到的问题，已解决。这是一篇很好的参考，遂翻译在此。
-
-#  
+原文链接参见[406 Not Acceptable](https://airbrake.io/blog/http-errors/406-not-acceptable), 工作中偶然碰到的问题，已解决。这是一篇很好的参考，遂翻译在此。
 
 # 406 Not Acceptable: 是什么及如何解决
 
@@ -47,11 +45,11 @@ January 25, 2018 Andrew Powell-Morse
 
 在 HTTP 请求中可以提供少量其他 Accept- 标头，但绝大多数场景与上述类似：用户代理需要显式类型的响应，服务器要么提供响应，要么返回 406 代码以指示它无法实现请求。
 
-### 客户端故障排除
+## 客户端故障排除
 
 既然 406 Not Acceptable 是客户端错误响应代码，因此最好首先排除可能导致此错误的任何潜在客户端问题。下面是一些提示，用于在出现问题的浏览器或设备上尝试下。
 
-#### 检查请求的URL
+### 检查请求的URL
 
 406 Not Acceptable 的最常见原因是仅仅输入了不正确的 URL。许多服务器都受到严密保护，因此不允许对客户端/用户代理不应访问的资源发出意外请求。可能是请求的 URL 稍有错误，从而导致用户代理请求特定类型的响应。例如，对 URI https://airbrake.io?json 的请求可能会向服务器指示需要 JSON 响应。由于 406 代码不如 404 代码常见，因此 406 的出现可能意味着请求的 URL 有效，但浏览器可能会误解预期的请求类型。无论采用哪种方式，仔细检查返回 406 Not Acceptable 错误的确切 URL以确保它是预期资源是一个好主意。
 
@@ -75,7 +73,7 @@ January 25, 2018 Andrew Powell-Morse
 
 最重要的是，不要害怕搜索你的问题。尝试搜索与您的问题相关的特定术语，例如应用程序的 CMS 名称随同 406 Not Acceptable。你很有可能会找到经历过同样问题的人。
 
-### 服务器端的故障排除
+## 服务器端的故障排除
 
 如果您未运行 CMS 应用程序——或者即使您运行了 CMS 应用程序，但您确信 406 Not Acceptable 与该应用程序无关——下面是一些其他提示，可帮助您解决在服务器端可能导致的此类问题。
 
@@ -90,7 +88,10 @@ January 25, 2018 Andrew Powell-Morse
 例如，下面是一个简单的RewriteRule，它匹配所有传入中不包含Accept:application/json 标头的请求到https://airbrake.io/users/json。结果是重定向和 406 Not Acceptable 的响应错误代码：
 
 ```
-RewriteEngine onRewriteCond %{REQUEST_URI} ^/users/json/?.*$RewriteCond %{HTTP_ACCEPT} !application/jsonRewriteRule ^(.*)$ http://airbrake.io/users/json$1 [R=406,L]
+RewriteEngine on
+RewriteCond %{REQUEST_URI} ^/users/json/?.*$
+RewriteCond %{HTTP_ACCEPT} !application/json
+RewriteRule ^(.*)$ http://airbrake.io/users/json$1 [R=406,L]
 ```
 
 请注意RewriteRule末尾的 R=406 标志，该标志明确声明响应代码应为 406，向用户代理指示资源存在，但无法实现显式 Accept- 标头。因此，如果您在 .htaccess 文件中发现任何看似非我同类的奇怪的 RewriteCond 或 RewriteRule 指令，请尝试暂时注释掉它们（使用 # 字符前缀），然后重新启动 Web 服务器以查看这是否解决了问题。
@@ -98,7 +99,18 @@ RewriteEngine onRewriteCond %{REQUEST_URI} ^/users/json/?.*$RewriteCond %{HTTP_A
 另一方面，如果您的服务器在 nginx 上运行，则需要查找完全不同的配置文件。默认情况下，此文件名为 nginx.conf，位于几个通用目录之一：/usr/local/nginx/conf、/etc/nginx 或 /usr/local/etc/nginx。找到以后，在文本编辑器中打开 nginx.conf 并查找使用 406 响应代码标志的指令。例如，下面是一个简单的块指令（即一组命名的指令），该指令为airbrake.io配置虚拟服务器，并确保与上述类似，对不包括Accept:application/json 请求标头至 https://airbrake.io/users/json 的请求将会失败，并且返回 406 响应代码：
 
 ```
-server {     listen 80;    listen 443 ssl;        server_name airbrake.io;        location /users/json {        if ($http_accept != application/json) {            return 406 https://airbrake.io/users/json$request_uri;        }    }}
+server {     
+    listen 80;    
+    listen 443 ssl;        
+    server_name airbrake.io;        
+    location /users/json 
+    {        
+        if ($http_accept != application/json) 
+        {            
+        	return 406 https://airbrake.io/users/json$request_uri;        
+        }    
+    }
+}
 ```
 
 请查看 nginx.conf 文件，了解包含 406 标志的任何异常指令或行。在重新启动服务器之前注释掉任何异常，以查看问题是否得到解决。
@@ -111,11 +123,11 @@ server {     listen 80;    listen 443 ssl;        server_name airbrake.io;      
 - Node.js
 - Apache Tomcat
 
-#### 查看日志
+### 查看日志
 
 几乎每个 Web 应用程序都会保留某种形式的服务器端日志。应用程序日志通常是应用程序所执行操作的历史记录，例如请求了哪些页面、它连接到哪些服务器、它提供的哪些数据库结果，等等。服务器日志与运行应用程序的实际硬件相关，并且通常会提供有关所有已连接服务的运行状况和状态的详细信息，甚至仅提供服务器本身的详细信息。如果您使用的是 CMS，搜索"日志 平台名称";如果您正在运行自定义应用程序，则使用"日志 编程语言"和"日志 操作系统"来进行搜索，以获取有关查找出现问题相关日志的详细信息。
 
-#### 调试应用程序代码或脚本
+### 调试应用程序代码或脚本
 
 如果所有其他操作都失败，可能是应用程序中某些自定义代码中的问题导致了该问题。尝试通过手动调试应用程序以及分析应用程序和服务器日志来诊断问题可能来自何处。理想情况下，将整个应用程序的副本复制到本地开发计算机，并执行分步调试过程，这将允许您重新创建发生 406 Not Acceptable 的确切场景，并在错误发生时查看应用程序代码。
 
