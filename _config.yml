@@ -109,3 +109,5 @@ friends: [
     		href: "https://blog.csdn.net/lindexi_gd"
     }
 ]
+
+theme: jekyll-theme-minimal
